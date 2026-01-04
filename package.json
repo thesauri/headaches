@@ -12,6 +12,7 @@
     "test:watch": "vitest"
   },
   "dependencies": {
+    "better-sqlite3": "^11.7.0",
     "got": "^14.4.1"
   },
   "devDependencies": {
