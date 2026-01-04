@@ -3,16 +3,13 @@ import { createPoller } from "./src/polling.js";
 import { createMessageHandler } from "./src/message-handler.js";
 import { createDatabase } from "./src/database.js";
 import { createLogger } from "./src/logger.js";
+import { loadConfig } from "./src/config.js";
 
-const BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
-if (!BOT_TOKEN) {
-  console.error("TELEGRAM_BOT_TOKEN environment variable is required");
-  process.exit(1);
-}
+const config = loadConfig();
 
 const logger = createLogger();
-const database = createDatabase("headaches.db", logger);
-const client = createTelegramClient(BOT_TOKEN, logger);
+const database = createDatabase(config.DATABASE_PATH, logger);
+const client = createTelegramClient(config.TELEGRAM_BOT_TOKEN, logger);
 const handleMessage = createMessageHandler(database, logger);
 const poller = createPoller(client, handleMessage, logger);
 
