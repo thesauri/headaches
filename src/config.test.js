@@ -24,6 +24,27 @@ describe("loadConfig", () => {
     expect(config.DATABASE_PATH).toBe("headaches.db");
   });
 
+  it("uses default port when not specified", () => {
+    const env = {
+      TELEGRAM_BOT_TOKEN: "123:ABC",
+    };
+
+    const config = loadConfig(env);
+
+    expect(config.PORT).toBe(3000);
+  });
+
+  it("parses PORT as number", () => {
+    const env = {
+      TELEGRAM_BOT_TOKEN: "123:ABC",
+      PORT: "8080",
+    };
+
+    const config = loadConfig(env);
+
+    expect(config.PORT).toBe(8080);
+  });
+
   it("throws when TELEGRAM_BOT_TOKEN is missing", () => {
     const env = {};
 
