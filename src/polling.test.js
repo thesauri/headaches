@@ -1,5 +1,6 @@
 import { describe, it, expect, vi } from "vitest";
 import { createPoller } from "./polling.js";
+import { createMockLogger } from "./test-helpers.js";
 
 describe("createPoller", () => {
   it("processes updates and sends responses", async () => {
@@ -12,7 +13,7 @@ describe("createPoller", () => {
     };
     const mockHandler = vi.fn().mockReturnValue("hello");
 
-    const poller = createPoller(mockClient, mockHandler);
+    const poller = createPoller(mockClient, mockHandler, createMockLogger());
     await poller.processUpdates();
 
     expect(mockClient.getUpdates).toHaveBeenCalledWith(0);
@@ -31,7 +32,7 @@ describe("createPoller", () => {
     };
     const mockHandler = vi.fn().mockReturnValue("hello");
 
-    const poller = createPoller(mockClient, mockHandler);
+    const poller = createPoller(mockClient, mockHandler, createMockLogger());
     await poller.processUpdates();
     await poller.processUpdates();
 
@@ -48,7 +49,7 @@ describe("createPoller", () => {
     };
     const mockHandler = vi.fn().mockReturnValue(null);
 
-    const poller = createPoller(mockClient, mockHandler);
+    const poller = createPoller(mockClient, mockHandler, createMockLogger());
     await poller.processUpdates();
 
     expect(mockClient.sendMessage).not.toHaveBeenCalled();
@@ -63,7 +64,7 @@ describe("createPoller", () => {
     };
     const mockHandler = vi.fn();
 
-    const poller = createPoller(mockClient, mockHandler);
+    const poller = createPoller(mockClient, mockHandler, createMockLogger());
     await poller.processUpdates();
 
     expect(mockHandler).not.toHaveBeenCalled();

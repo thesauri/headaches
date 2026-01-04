@@ -1,4 +1,5 @@
-export function createPoller(client, onMessage) {
+export function createPoller(client, onMessage, logger) {
+  const log = logger.child({ module: "polling" });
   let offset = 0;
   let running = false;
 
@@ -7,6 +8,7 @@ export function createPoller(client, onMessage) {
     for (const update of updates) {
       offset = update.update_id + 1;
       if (update.message) {
+        log.debug({ updateId: update.update_id, chatId: update.message.chat.id }, "Processing message");
         const response = onMessage(update.message);
         if (response) {
           await client.sendMessage(update.message.chat.id, response);
@@ -16,18 +18,21 @@ export function createPoller(client, onMessage) {
   }
 
   async function start() {
+    log.info("Polling started");
     running = true;
     while (running) {
       try {
         await processUpdates();
       } catch (error) {
-        console.error("Polling error:", error.message);
+        log.error({ err: error }, "Polling error");
         await new Promise((resolve) => setTimeout(resolve, 1000));
       }
     }
+    log.info("Polling stopped");
   }
 
   function stop() {
+    log.info("Stopping polling");
     running = false;
   }
 

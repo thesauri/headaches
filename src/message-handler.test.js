@@ -1,10 +1,11 @@
 import { describe, it, expect, vi } from "vitest";
 import { createMessageHandler } from "./message-handler.js";
+import { createMockLogger } from "./test-helpers.js";
 
 describe("createMessageHandler", () => {
   it("records headache and returns confirmation", () => {
     const mockDb = { recordHeadache: vi.fn() };
-    const handler = createMessageHandler(mockDb);
+    const handler = createMessageHandler(mockDb, createMockLogger());
 
     const message = { text: "bad sleep", from: { id: 123 }, chat: { id: 123 } };
     const result = handler(message);
@@ -15,7 +16,7 @@ describe("createMessageHandler", () => {
 
   it("trims whitespace from description", () => {
     const mockDb = { recordHeadache: vi.fn() };
-    const handler = createMessageHandler(mockDb);
+    const handler = createMessageHandler(mockDb, createMockLogger());
 
     const message = { text: "  stress  ", from: { id: 1 }, chat: { id: 1 } };
     handler(message);
@@ -25,7 +26,7 @@ describe("createMessageHandler", () => {
 
   it("returns error when user ID is missing", () => {
     const mockDb = { recordHeadache: vi.fn() };
-    const handler = createMessageHandler(mockDb);
+    const handler = createMessageHandler(mockDb, createMockLogger());
 
     const message = { text: "headache", chat: { id: 123 } };
     const result = handler(message);
@@ -36,7 +37,7 @@ describe("createMessageHandler", () => {
 
   it("returns error when text is missing", () => {
     const mockDb = { recordHeadache: vi.fn() };
-    const handler = createMessageHandler(mockDb);
+    const handler = createMessageHandler(mockDb, createMockLogger());
 
     const message = { from: { id: 123 }, chat: { id: 123 } };
     const result = handler(message);
@@ -47,7 +48,7 @@ describe("createMessageHandler", () => {
 
   it("returns error when text is empty", () => {
     const mockDb = { recordHeadache: vi.fn() };
-    const handler = createMessageHandler(mockDb);
+    const handler = createMessageHandler(mockDb, createMockLogger());
 
     const message = { text: "   ", from: { id: 123 }, chat: { id: 123 } };
     const result = handler(message);

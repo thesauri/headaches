@@ -13,7 +13,8 @@
   },
   "dependencies": {
     "better-sqlite3": "^11.7.0",
-    "got": "^14.4.1"
+    "got": "^14.4.1",
+    "pino": "^10.1.0"
   },
   "devDependencies": {
     "vitest": "^2.1.8"

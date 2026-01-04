@@ -1,11 +1,12 @@
 import { describe, it, expect, beforeEach, afterEach } from "vitest";
 import { createDatabase } from "./database.js";
+import { createMockLogger } from "./test-helpers.js";
 
 describe("createDatabase", () => {
   let database;
 
   beforeEach(() => {
-    database = createDatabase(":memory:");
+    database = createDatabase(":memory:", createMockLogger());
   });
 
   afterEach(() => {
