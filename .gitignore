@@ -1,3 +1,5 @@
 .DS_Store
 node_modules/
 headaches.db
+.kamal/secrets
+config/deploy.yml
