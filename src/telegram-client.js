@@ -22,5 +22,23 @@ export function createTelegramClient(token, logger) {
     return response.result;
   }
 
-  return { getUpdates, sendMessage };
+  async function setWebhook(url, secretToken) {
+    log.info({ url }, "Setting webhook");
+    const json = { url };
+    if (secretToken) {
+      json.secret_token = secretToken;
+    }
+    const response = await got.post(`${apiBase}/setWebhook`, { json }).json();
+    log.info({ ok: response.ok }, "Webhook set");
+    return response;
+  }
+
+  async function deleteWebhook() {
+    log.info("Deleting webhook");
+    const response = await got.post(`${apiBase}/deleteWebhook`).json();
+    log.info({ ok: response.ok }, "Webhook deleted");
+    return response;
+  }
+
+  return { getUpdates, sendMessage, setWebhook, deleteWebhook };
 }

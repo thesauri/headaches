@@ -4,6 +4,8 @@ export function createHealthServer(port, logger) {
   const log = logger.child({ module: "health-server" });
   const app = express();
 
+  app.use(express.json());
+
   app.get("/up", (req, res) => {
     log.info("Health check requested");
     res.status(200).send("OK");
