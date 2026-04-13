@@ -72,7 +72,109 @@ Clear association (Feb 15 wine, Mar 6 party). Vasodilation likely lowers the hea
 ### Overall Picture
 Most likely a primary headache disorder (migraine or tension-type) with a strong cervicogenic component. The neck appears to be both a constant low-grade issue and the main escalation pathway to full headache. The common thread across triggers (exercise, sauna, hot weather, alcohol) appears to be **heat/vasodilation acting on a sensitized cervical-trigeminal system**, not dehydration. The cervical spine remains the common denominator — it's the substrate on which all these triggers act.
 
-### Recommended Next Steps
+### Recommended Next Steps (March 22)
 1. **Physiotherapy evaluation** of the cervical spine — highest priority actionable step
 2. **Structured data collection** (deployed 2026-03-22): now tracking headache yes/no, neck stiffness 0-3, screen hours, and hydration 0-2 per entry alongside the existing free-text description
 3. **Reassess in 3-4 weeks** once structured data has accumulated — this will allow proper correlation analysis between the new variables and headache occurrence
+
+---
+
+## 2026-04-13 — Three-Week Follow-Up
+
+### Data Overview
+98 diary entries spanning Jan 5 – Apr 13 (99 days). 22 entries with structured tracking fields since Mar 23. The previous analysis covered 76 entries through Mar 21.
+
+### Headache Rate
+
+| Period | Days Tracked | Headache Days | Rate |
+|---|---|---|---|
+| Jan 5 – Mar 22 | ~67 | ~20 | ~30% |
+| Mar 23 – Apr 13 | 21 | 9 | **43%** |
+| **Full dataset** | **~88** | **~29** | **~33%** |
+
+The rate is elevated in the new period. Two likely explanations: a high-stress work crunch (RAVE deadline, Apr 8–10) and increased outdoor sun exposure as spring progresses. Small sample — not enough to call it a trend, but worth monitoring.
+
+### Hypothesis Validation
+
+**1. Cervicogenic component — CONFIRMED, strengthened with quantitative data**
+
+Structured neck stiffness tracking (0–3 scale) is the clearest predictor in the dataset:
+
+| Neck Stiffness | Entries | Headache Rate |
+|---|---|---|
+| 1 (moderate) | 12 | 25% |
+| 2 (high) | 10 | **60%** |
+
+No entries have stiffness rated 0 — it is present every day. The mechanism is a constant substrate, not a binary trigger. Headache depends on whether it crosses a threshold. Average stiffness on headache days: 1.67 vs 1.31 on clear days.
+
+New entries continue to describe pain originating in the neck:
+- Mar 26: "Kände mig väldigt stel i nacken" — woke with headache, ibuprofen resolved in ~1 hour
+- Apr 13: "Kryper på under morgonen" — slow creeping onset, classic cervicogenic pattern
+
+**2. Heat/sun as a trigger — CONFIRMED, most reliable specific trigger**
+
+New heat-triggered episodes: Mar 29 (watching golf in sun), Apr 11 (playing golf in sun). These are near-identical to Jan 12. Golf in sunlight is now the single most reliable trigger in the dataset with at least 4 clear episodes (Jan 12, Mar 29, Apr 11, Jan 17 in 28°C).
+
+Hydration continues to show no protective effect. In the structured data, hydration is almost always rated 2 (well-hydrated) on both headache and clear days (avg 1.67 vs 1.92). Consistent with earlier finding that this is a heat mechanism, not dehydration.
+
+**3. Alcohol — still confirmed, no new episodes**
+
+No alcohol-triggered headaches since Mar 6 (30th birthday party with sauna + alcohol). Not retested in the new period.
+
+**4. NEW FINDING: Stress as an independent trigger pathway**
+
+The Apr 8–10 cluster is the first clear stress-only headache run in the dataset. Walter explicitly attributes it to the RAVE work deadline — no heat, no exercise, no alcohol involved.
+
+Key details:
+- Apr 8 evening: headache onset during intense deadline work
+- Apr 9: woke with headache, "molande" (dull/aching), described as "annorlunda" (different-feeling)
+- Apr 10: headache at lunch, poor sleep (6h42min), continued stress
+
+The qualitatively different description ("molande" vs the usual sharp/radiating) suggests the stress pathway may produce a distinct headache phenotype compared to the cervicogenic/heat triggers.
+
+The Jan 28 panel talk at APEX Tech was a stress-triggered near-miss (ibuprofen prevented full bloom). Combined with the April cluster, stress is now established as an independent trigger.
+
+**5. NEW FINDING: "Classic weekend headache" (let-down pattern)**
+
+Apr 13: "Det kändes som min klassiska helghuvudvärk. Kryper på under morgonen." Walter recognizes this as a recurring pattern — headache creeping in on a low-activity day after a high-stress work week. This is the textbook migraine "let-down" effect described in the literature (headaches when stress *drops*, not during peak stress itself). This pattern was identified as a possibility in the research document but had not appeared clearly in the data until now.
+
+**6. NEW FINDING: Headache clustering**
+
+Headaches appear in multi-day runs, not randomly distributed:
+- Jan 11–18: ~7 headache days in 8 days
+- Mar 26–29: 4 consecutive days
+- Apr 8–13: 5 out of 6 days (1 clear day in between)
+
+Between clusters, long clear stretches are common (Mar 30 – Apr 7 = 9 consecutive clear days; Jan 19–27 = 9 clear days). This suggests a sensitization/recovery cycle: once the system is triggered, it stays vulnerable for several days before resettling.
+
+### Structured Variables That Don't Correlate
+
+| Variable | Headache Days | Clear Days | Signal? |
+|---|---|---|---|
+| Screen hours | 6.0 avg | 6.9 avg | No — slightly inverted |
+| Hydration (0–2) | 1.67 avg | 1.92 avg | Weak at best — hydration nearly always 2 |
+
+Screen time and hydration do not appear to be independent drivers in this dataset.
+
+### Ibuprofen Usage
+
+15 unique days with ibuprofen use across ~99 days ≈ **~4.5 days/month**. Well below the medication-overuse headache threshold (≥15 days/month for NSAIDs). 400mg ibuprofen continues to resolve every episode — no treatment failures in the dataset.
+
+### Updated Overall Picture
+
+The cervicogenic hypothesis holds up well and now has quantitative support (neck stiffness level 2 → 60% headache rate). But the new data reveals a more nuanced, multi-pathway picture:
+
+1. **Neck** = the constant substrate (stiffness every day, pain radiates from there, high stiffness doubles headache risk)
+2. **Heat/sun** = the most reliable escalation trigger (golf in sun, running in heat, sauna)
+3. **Stress** = an independent trigger pathway, possibly producing a qualitatively different headache (dull/aching vs sharp/radiating)
+4. **Let-down effect** = stress dropping on weekends produces its own headache pattern
+5. **Clustering** = once triggered, the system stays vulnerable for days before resettling
+6. **Alcohol** = confirmed but less frequent in the new period
+
+This multi-trigger, single-substrate pattern is consistent with a **primary headache disorder (migraine or tension-type) with a dominant cervicogenic component**. The neck is the common denominator, but central sensitization and stress-mediated pathways also play a role.
+
+### Next Steps (April 13)
+1. **Physical therapy evaluation** at Accelerate Physical Therapy, Newport Beach — scheduled for Apr 14, 2026. First-ever cervical spine evaluation. They specialize in cervicogenic headaches.
+2. **Continue structured tracking** — the 22-entry dataset is starting to show real patterns but needs more data to confirm (especially the neck stiffness correlation at n=22).
+3. **Monitor headache frequency trend** — the 43% rate in the new period warrants watching. If it stays elevated after the RAVE deadline stress resolves, that would be meaningful.
+4. **Consider adding stress level** to structured tracking — the Apr 8–10 cluster and the let-down pattern suggest stress is a significant independent variable not currently captured numerically.
