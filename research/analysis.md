@@ -178,3 +178,49 @@ This multi-trigger, single-substrate pattern is consistent with a **primary head
 2. **Continue structured tracking** — the 22-entry dataset is starting to show real patterns but needs more data to confirm (especially the neck stiffness correlation at n=22).
 3. **Monitor headache frequency trend** — the 43% rate in the new period warrants watching. If it stays elevated after the RAVE deadline stress resolves, that would be meaningful.
 4. **Consider adding stress level** to structured tracking — the Apr 8–10 cluster and the let-down pattern suggest stress is a significant independent variable not currently captured numerically.
+
+---
+
+## 2026-04-20 — First PT Follow-Up
+
+### Summary
+
+Two PT visits completed at Accelerate Physical Therapy (Apr 14 and Apr 20), with two different physiotherapists independently assessing the cervical spine. Both agree cervical stiffness is a likely driver and estimate meaningful results within **3–6 weeks** if the hypothesis is correct.
+
+### Clinical Findings
+
+- **Semispinalis capitis flagged as the primary muscular target.** The second PT identified it as very stiff and possibly too short. This muscle runs from the upper cervical/thoracic vertebrae to the occipital bone — anatomically and functionally consistent with the occipital/upper-neck referral pattern seen repeatedly in the diary ("strålar från baksidan av nacken i mitten" Jan 17; "strålar från övre delen av nacken" Mar 21).
+- **Left side much stiffer than right.** The right side is also symptomatic, but asymmetry is pronounced. Candidate mechanisms worth investigating: (1) stomach-sleeping rotation direction (whichever side is held in sustained shortening overnight), (2) laptop-use postural habits (consistent lateral tilt or rotation), (3) handedness/desk setup.
+- **Mid-back (thoracic) stiffness** identified at the Apr 20 visit. Thoracic hypomobility forces the cervical spine to compensate for extension, overloading the upper neck — a well-established contributor to cervicogenic headache. This is a new finding and broadens the working hypothesis beyond pure cervical muscular dysfunction.
+
+### Exercise Program
+
+Prescribed Apr 14 (performed daily since):
+1. **Suboccipital release ("peanut")** — two tennis balls tied together, lie on them under the neck / lower head. Targets the suboccipital region and semispinalis insertion at the occiput.
+2. **Supine band overhead pass** — lie on floor, arms extended overhead holding a rubber band between hands, slowly move hands down over head. Thoracic mobility and scapular activation; counters the forward-rounded posture that keeps semispinalis chronically lengthened-but-tight.
+
+Added Apr 20:
+3. **Foam roller thoracic extension**, 1–2x/week — lie on the roller and extend the back backwards. Directly addresses the new mid-back finding.
+4. **Towel upper cervical traction** — rolled towel behind head/neck, pull slightly upward and forward. Gentle C0–C2 distraction; lengthens semispinalis capitis.
+
+The four exercises form a coherent program: release the tight tissue, mobilize the stiff segment above it, lengthen the suspected short muscle, and retrain the posture that caused it.
+
+### Interpretation
+
+This is the strongest mechanistic story to date and it is consistent with the quantitative data. The diary's neck-stiffness-predicts-headache signal (level 2 → 60% headache rate), the repeated descriptions of pain radiating from the upper neck, and the lifelong stomach-sleeping habit all line up with a shortened, asymmetrically tight semispinalis capitis plus thoracic hypomobility.
+
+The L>>R asymmetry is a useful diagnostic check. If the stiffer side matches the habitual sleep-rotation side, that's independent evidence that sleep position is a real mechanical contributor — which would elevate the priority of addressing it (side-sleeping trial, pillow changes) alongside the PT program.
+
+### What to Watch
+
+- **Neck stiffness scores** (already tracked 0–3) should trend down first if the program is working. This is the leading indicator.
+- **Headache frequency** should follow, with a lag. By late May / early June we should have enough data to judge.
+- **Adherence**: exercises 1–2 done daily since Apr 14. Exercises 3–4 starting Apr 20. Worth logging adherence in the diary so "didn't work" can be distinguished from "didn't do it."
+- **Null-result interpretation**: if stiffness scores drop but headache rate doesn't, the cervicogenic substrate may be present but not the dominant driver — would elevate the stress / central sensitization pathways identified in the Apr 13 analysis.
+
+### Updated Next Steps
+
+1. **Log exercise adherence** in the daily diary (which of the 4 were done that day). Needed to make the 3–6 week outcome interpretable.
+2. **Observe sleep rotation direction** — note which way the head is turned on waking for a week or two. Test whether it correlates with the L>>R asymmetry.
+3. **Hold the structured tracking unchanged** through the PT window so the pre/post comparison is clean.
+4. **Reassess around 2026-05-26** (6 weeks from Apr 14) — compare neck stiffness trend, headache rate, and pain-quality descriptions against the pre-PT baseline.
