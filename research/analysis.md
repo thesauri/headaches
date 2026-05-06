@@ -224,3 +224,53 @@ The L>>R asymmetry is a useful diagnostic check. If the stiffer side matches the
 2. **Observe sleep rotation direction** — note which way the head is turned on waking for a week or two. Test whether it correlates with the L>>R asymmetry.
 3. **Hold the structured tracking unchanged** through the PT window so the pre/post comparison is clean.
 4. **Reassess around 2026-05-26** (6 weeks from Apr 14) — compare neck stiffness trend, headache rate, and pain-quality descriptions against the pre-PT baseline.
+
+---
+
+## 2026-05-06 — Three-Week PT Check-In
+
+### Headache Rate Since PT Started
+
+| Period | Headache Days | Rate | Notes |
+|---|---|---|---|
+| Pre-PT (Mar 23 – Apr 13) | 9 / 22 | ~41% | Baseline |
+| PT Week 1 (Apr 14–20) | 1 / 7 | ~14% | The 1 was PT-induced (therapist deliberately provoked) — effectively 0 spontaneous |
+| PT Week 2 (Apr 21–27) | 1 / 7 | ~14% | Apr 25 only — woke stiff (neck stiffness = 3) |
+| PT Week 3 (Apr 28 – May 4) | 2 / 7 | ~29% | Both mild, both evening |
+| **Last 4 days (May 3–6)** | **4 / 4** | **100%** | Active cluster |
+
+The first ~13 days of PT were the longest essentially-clean stretch in the dataset (zero spontaneous headaches Apr 15–24 excluding the PT-induced one). This is a meaningful signal that the program is acting on the substrate. Then the streak broke into a 4-day cluster.
+
+### Cluster Trigger and Course
+
+**May 3 is the ignition point**: 4+ hours of golf in sun + beer during play. Two known triggers stacked — the heat/sun pattern (Jan 12, Mar 29, Apr 11) and alcohol. The cluster mechanism identified in the Apr 13 analysis (once triggered, system stays vulnerable for days) appears to have kicked in cleanly.
+
+Course of the cluster:
+- **May 3**: mild evening onset post-golf
+- **May 4**: mild evening, low-activity day — let-down / lingering pattern
+- **May 5**: full typical headache. **400mg ibuprofen did not resolve it** — the first ibuprofen non-response in the structured-data period. Notable.
+- **May 6**: woke with significant headache, ibuprofen + morning walk helped after ~2h
+
+Neck stiffness was 2–3 on May 5 and May 6 — the high end of the scale, consistent with the previously confirmed stiffness-predicts-headache signal.
+
+### Interpretation
+
+Two things appear to be true at once:
+
+1. **The PT program is likely working on the cervical substrate.** A 13-day spontaneous-headache-free stretch has no precedent in the dataset and is hard to explain by chance given the prior ~41% rate. The exercise adherence has been high (morning/evening, often 3x/day).
+
+2. **The trigger pathways are intact.** Golf-in-sun + alcohol still produces the same cluster pattern as pre-PT. The substrate may be calmer, but heat/vasodilation can still override it.
+
+This isn't a contradiction — it matches the multi-pathway model from Apr 13. PT addresses the substrate; it doesn't eliminate triggers. The right framing for the PT visit is probably not "is it working" (it appears to be) but "what's the ceiling" — how much can substrate work reduce baseline rate when known triggers remain.
+
+### Notable for the PT
+
+- **May 5 ibuprofen non-response** is the first treatment failure in the structured-tracking period and worth flagging clinically.
+- **Exercise adherence has been consistently high** since Apr 14 — "didn't do it" is not the explanation for the cluster.
+- **Same trigger pattern as pre-PT** (heat/sun + alcohol) suggests substrate work alone won't close the gap; trigger management (sun exposure during golf, alcohol on hot/active days) likely needs explicit attention.
+
+### What to Watch Next
+
+- Whether the cluster resolves on the prior timescale (3–5 days) or runs longer — would indicate whether substrate work has changed cluster duration even when it can't prevent ignition.
+- Neck stiffness trend post-cluster: does it return to the 1s seen during the clean stretch, or settle higher?
+- Whether another clean stretch follows once this cluster resolves — that would strengthen the "PT is working on substrate, triggers are independent" reading.
