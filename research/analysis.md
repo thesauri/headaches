@@ -343,3 +343,35 @@ The SI-joint issue (returned ~Apr 21) has stayed in the background — not a hea
 - Whether the unprovoked-headache rate stays near zero. If unprovoked episodes reappear, that points back at the substrate; if not, the remaining work is trigger management.
 - Whether sauna becomes consistently provocative even in moderation — two consecutive sauna-linked mild episodes (May 27, May 29) is the first time sauna has clustered on its own.
 - Six-month-from-PT-start point (~mid-October 2026) is a natural place to decide whether to taper exercise frequency or maintain.
+
+---
+
+## 2026-06-06 — Program Progression: Strengthening + Sensorimotor Phase
+
+### Context
+
+PT visit Jun 2 (entry 140) worked the **atlas (C1)** — the therapist judged the topmost vertebra slightly rotated, mobilized it manually (head rotation → audible "knax" → reported realigned), and pointed it out on a model spine. Two new home exercises were prescribed at/around this visit. Both fill gaps the program hadn't yet addressed — the Mar 22 baseline explicitly noted the routine had **no strengthening and no motor-control component**. The program has now moved from release/mobilize/lengthen into the **strengthen + retrain** phase.
+
+### New Exercise 1 — Band-resisted neck-extensor isometric
+
+Rubber band behind the head, both ends pulled forward by the hands; head held stable against the forward pull. The band loads the head into flexion, so the **posterior neck extensors — including the semispinalis capitis** (the muscle both PTs flagged in April as stiff/possibly shortened, and the anatomical match for the occipital referral pattern) — work isometrically to resist. This is the strengthening step that logically follows weeks of releasing and lengthening the same muscle: training it to hold a corrected position under load rather than sitting chronically tight.
+
+### New Exercise 2 — Gaze-stabilization / cervical proprioception drill
+
+Arms extended forward, thumbs up; gaze fixed on the (stationary) thumbs while the head rotates side to side. This is a **sensorimotor / upper-cervical proprioception retraining** drill. The suboccipital muscles around C1–C2 carry the densest muscle-spindle population in the body and are a primary source of head-position sense; chronic tightness/dysfunction there (and a just-mobilized C1) makes that signal noisy. Fixing gaze on a target while the head moves loads the eye–neck reflexes (cervico-ocular / vestibulo-ocular) and the proprioceptive feedback loop directly — something passive stretching never touches. Adding it right after the C1 adjustment fits the logic: mobilize the joint, then retrain the sensors that live on it. This drill is standard in cervicogenic-headache and cervicogenic-dizziness rehab.
+
+**Walter's observation (entry 145, Jun 6):** surprised how much exercise 2 "feels," and specifically that **focusing the gaze changes the sensation** ("får igång blodflödet" / gets something moving). No pain. This is the expected response — it's the proprioceptive/oculomotor integration system being challenged for the first time (the gaze-focus dependence is the tell that the feedback loop, not just the muscle, is being loaded). The "blood flow" feeling is most plausibly downstream neuromuscular activation, not a vascular event. No pain is the correct outcome for this drill.
+
+### Why this matters for the model
+
+If the cervicogenic substrate hypothesis is right, strengthening + sensorimotor retraining is where the *durable* gains live — the difference between "loosened today" and "the neck holds the better position on its own." It also gives a more direct lever on the sensorimotor/central-sensitization pathway flagged as secondary since Apr 13.
+
+### Minor data note
+
+**Jun 3–4 (entries 142–143):** light morning headache that worsened through the day, neck=2, ibuprofen, resolved gradually — **no obvious trigger** (good sleep 8h39, easy home workday, no heat/alcohol/exertion). Single mild isolated episode, not alarming, but it's the unprovoked phenotype the May/Jun check-ins said to watch (unprovoked → substrate; provoked → trigger management). Worth tagging clearly going forward.
+
+### What to Watch Next
+
+- Whether the unprovoked-headache rate stays near zero now that the strengthening/sensorimotor phase has begun — this phase targets exactly the substrate that unprovoked episodes would implicate.
+- Tolerance/response to the gaze-stabilization drill over the next weeks (it's the most novel stimulus in the program); note if the "feels like a lot" sensation diminishes as the system adapts.
+- Carry the prior watch-items forward: clustering through the next stacked-trigger event, sauna provocation in moderation, and the ~mid-October taper-vs-maintain decision point.
