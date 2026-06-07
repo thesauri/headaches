@@ -274,3 +274,72 @@ This isn't a contradiction — it matches the multi-pathway model from Apr 13. P
 - Whether the cluster resolves on the prior timescale (3–5 days) or runs longer — would indicate whether substrate work has changed cluster duration even when it can't prevent ignition.
 - Neck stiffness trend post-cluster: does it return to the 1s seen during the clean stretch, or settle higher?
 - Whether another clean stretch follows once this cluster resolves — that would strengthen the "PT is working on substrate, triggers are independent" reading.
+
+---
+
+## 2026-06-01 — Seven-Week PT Check-In
+
+### Headache Rate Since PT Started
+
+| Period | Headache Days | Rate | Notes |
+|---|---|---|---|
+| Pre-PT (Mar 23 – Apr 13) | 9 / 22 | ~41% | Baseline |
+| PT Weeks 1–3 (Apr 14 – May 4) | 4 / 21 | ~19% | Includes the PT-induced Apr 14 |
+| May 3–6 cluster | 4 / 4 | 100% | Golf-in-sun + alcohol ignition |
+| **Post-cluster (May 7 – Jun 1)** | **5 / 26** | **~19%** | All but one mild; all trigger-explained |
+
+The "what to watch next" question from May 6 has answered itself: another clean stretch did follow. The 26-day window since the cluster resolved holds at the same ~19% rate as the pre-cluster PT period, despite the period including substantial travel (roadtrip, San Diego, overnight flight, altitude exposure) — conditions that would historically be expected to push the rate up.
+
+### Severity, Not Just Frequency
+
+The bigger shift in this period is severity. Of the 5 episodes:
+
+- **May 17** — woke with it, ibuprofen resolved
+- **May 23** — *real* one. 12 km hike with 500 m climb, ~20°C with strong sun on the descent, at 1600 m (SpO₂ 93%). Ibuprofen + continued walking resolved over a few hours.
+- **May 25** — mild, post-overnight-flight from San Diego (1.5 h sleep on plane)
+- **May 27** — mild, in the sauna with drinks
+- **May 29** — mild, sauna again
+
+Only May 23 was a typical full headache. The other four were "lätt huvudvärk" with clear triggers. Compared to the pre-PT period — and especially compared to the May 3–6 cluster where ibuprofen failed once — this is a meaningful drop in severity.
+
+### No Clustering
+
+Since the May 3–6 cluster resolved, every headache has been **isolated**. No two consecutive days, no >2-day runs. The longest clean stretch in this window was 6 days (May 11–16). Pre-PT, clusters of 4–7 days were the dominant pattern; their absence is a substantive change.
+
+This is consistent with the Apr 13 model: PT calms the substrate, which raises the threshold and shortens the post-trigger sensitization tail. The May 3–6 cluster was a stress test of that model; the cluster happened but didn't repeat, and nothing similar has appeared since.
+
+### Robustness Test Passed (May 30–31)
+
+A notable negative result. **Sat May 30**: long bike ride in ~20°C with sun, then heavy drinking in the evening — historically a stacked-trigger profile (heat + exertion + alcohol). **Sun May 31**: woke hungover after 6 h poor sleep. **No headache either day.** Walter flagged it himself as "ovanligt" (unusual).
+
+Each of those conditions individually has triggered headaches in this dataset. Surviving all three stacked, with poor sleep on top, is the cleanest evidence to date that the threshold has moved up. Single observation — but a high-information one.
+
+### Hypothesis Status
+
+| Pathway | Status |
+|---|---|
+| Cervicogenic substrate | Substrate work appears effective — frequency, severity, and clustering all reduced. |
+| Heat / sun + exertion | Still active. May 23 hike, May 27/29 sauna. Substrate buffer is real but not unlimited. |
+| Alcohol | Mixed. Sauna + alcohol still triggers (May 27, May 29). Bike + heavy alcohol on May 30 did not. Vasodilation context may matter more than alcohol alone. |
+| Sleep deprivation | New clear instance — May 25 post-flight (1.5 h sleep). Reinforces the prior sleep-debt observation from Mar 18. |
+| Altitude | New candidate factor. May 23 at 1600 m / SpO₂ 93%. One data point — speculative — but worth noting given the day produced the only severe headache of the period. |
+| Stress / let-down | No clear instances since the Apr 8–10 RAVE cluster. Work has been intense but headaches have not tracked it. |
+
+### Side Note: SI-Joint
+
+The SI-joint issue (returned ~Apr 21) has stayed in the background — not a headache contributor, but worth noting that the PT addressed it Apr 28 with a hip alignment correction (audible "knax"), and the foam roller (acquired Apr 30) has been useful for the back. Not a headache variable, but it explains some of the ibuprofen days in late April that are unrelated to head pain.
+
+### Notable for the PT
+
+- **Frequency, severity, and clustering all down** since the May 3–6 cluster. Substrate work is the most plausible explanation.
+- **All recent headaches have identifiable triggers** (heat+altitude, sauna+alcohol×2, post-flight, one morning unknown). Pre-PT had a meaningful fraction of unprovoked episodes.
+- **Robustness improving** — May 30/31 stacked-trigger day produced no headache.
+- **Altitude/hypoxia (1600 m, SpO₂ 93%) on the worst day** of the period — worth asking whether this fits the heat/vasodilation mechanism or is a separate pathway.
+- **Adherence has been consistent** on the home program; foam roller in regular use; no exercise routine gaps.
+
+### What to Watch Next
+
+- Whether the no-clustering pattern continues through the next stacked-trigger event (next hot/active travel day with alcohol).
+- Whether the unprovoked-headache rate stays near zero. If unprovoked episodes reappear, that points back at the substrate; if not, the remaining work is trigger management.
+- Whether sauna becomes consistently provocative even in moderation — two consecutive sauna-linked mild episodes (May 27, May 29) is the first time sauna has clustered on its own.
+- Six-month-from-PT-start point (~mid-October 2026) is a natural place to decide whether to taper exercise frequency or maintain.
