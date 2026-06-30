@@ -375,3 +375,58 @@ If the cervicogenic substrate hypothesis is right, strengthening + sensorimotor 
 - Whether the unprovoked-headache rate stays near zero now that the strengthening/sensorimotor phase has begun — this phase targets exactly the substrate that unprovoked episodes would implicate.
 - Tolerance/response to the gaze-stabilization drill over the next weeks (it's the most novel stimulus in the program); note if the "feels like a lot" sensation diminishes as the system adapts.
 - Carry the prior watch-items forward: clustering through the next stacked-trigger event, sauna provocation in moderation, and the ~mid-October taper-vs-maintain decision point.
+
+---
+
+## 2026-06-30 — Pre-Visit Check-In (since the Jun 2 atlas adjustment)
+
+### Headache Rate
+
+| Period | Headache Days | Rate | Notes |
+|---|---|---|---|
+| Pre-PT (Mar 23 – Apr 13) | 9 / 22 | ~41% | Baseline |
+| PT calm window (May 7 – Jun 1) | 4 / 20 | ~19% | Low frequency, low severity, no clustering |
+| **Since Jun 2 visit (Jun 2 – Jun 30)** | **~8 / 29** | **~28%** | Frequency up; severity up more |
+| **Last two weeks (Jun 16 – Jun 30)** | **4 / ~10 logged** | **~40%** | Includes a 2-day cluster |
+
+The May calm has partly broken. Frequency ticked up from ~19% to ~28%, but the clearer shift is in **severity and neck stiffness** — both moved the wrong way. This is the first sustained regression since the program started.
+
+### Neck Stiffness Trending Up — the leading indicator
+
+The metric the Apr 20 / May 6 notes said to watch first has reversed direction:
+
+| Window | Avg neck stiffness (0–3) | Level-2 frequency |
+|---|---|---|
+| May 7 – Jun 1 (calm) | 1.45 | minority of days |
+| Since Jun 2 | **1.78** | **18 of 23 entries at level 2** |
+
+Through May, resting stiffness was drifting toward 1s. Since the Jun 2 visit it has pinned at 2, with explicit self-reports of unusual stiffness (Jun 17 "ovanligt stel i nacken" + right-shoulder referral after a bad bed; Jun 28 "rätt spänd nacke"). Hydration unchanged (avg 1.91) — not a dehydration story.
+
+### What Drove the Uptick — heavily trigger-loaded
+
+This was a brutal month for triggers, consistent with the multi-pathway model (substrate buffer real but not unlimited):
+
+- **Heat + sun + driving range** is the dominant pattern: Jun 8, Jun 23, Jun 24, Jun 29 were all "klassisk huvudvärk" that bloomed in the afternoon, several after the range in sun. Same heat/sun trigger as the whole dataset, just frequent now that it's summer.
+- **Jun 14 — worst episode in months.** "Rejäl migrän," cold-sweating, couldn't eat until afternoon. Sat on a stacked-trigger run: transcontinental flight (8h sitting) + 30°C heat + alcohol at the work summer party the night before. Severe episodes had essentially vanished since the May 3–6 cluster, so this stands out.
+- **Constant travel** (home from Sweden ~Jun 1, cross-US flights ~Jun 11, Quebec trip, home Jun 26) — sitting + sleep disruption layered onto the heat.
+- **2-day cluster Jun 23–24** — first back-to-back run since the May 3–6 cluster. Clustering may be creeping back; watch the next stacked-trigger event.
+- **Ibuprofen** on ~6 days this month (Jun 3, 8, 14, 23, 24, 29). Still under the medication-overuse threshold but ticking up from the ~4.5 days/month baseline.
+
+### Exercise Observations to Relay Clinically
+
+Three mechanical notes logged this period, all worth raising at the visit:
+
+1. **L≫R asymmetry on the supine band overhead pass** (Jun 27, entry 159): left arm gets stuck near the bottom, feels tight/blocked, can be forced past but uncomfortable; right side completely clear. Independently corroborates the **L≫R semispinalis stiffness** both PTs found in April — a second, unrelated channel pointing at the same lateralized restriction.
+2. **Gaze-stabilization drill** (Jun 6, Jun 24, entries 145/156): strong sensation; now a faint "walking-in-sand" sound during the drill. No pain — expected adaptation for the proprioceptive/oculomotor loop, but the audible component is new.
+3. **Tendon "jumps/catches" near the Adam's apple** (Jun 28, entry 160) when tilting the head and looking up in one direction but not the other. New sensation despite doing the exercise a long time; not painful.
+
+### Interpretation
+
+This is not evidence the PT stopped working. The spring substrate gains are most plausibly still present; what changed is (a) a summer pile-up of heat/sun/range + travel + alcohol triggers and (b) resting neck stiffness creeping back to a baseline of 2. The open questions for the visit: **why is resting stiffness climbing again despite consistent adherence**, and whether the **L≫R band block** and the **new throat-side tendon catch** are expected or call for a program adjustment.
+
+### What to Watch Next
+
+- Whether neck-stiffness baseline returns toward 1 once the travel/heat run settles, or holds at 2 — the cleanest read on substrate vs. trigger.
+- Whether the Jun 23–24 back-to-back becomes a recurring clustering pattern or stays isolated.
+- Ibuprofen frequency — keep it well clear of the ≥15 days/month MOH line as summer triggers persist.
+- Carry forward the ~mid-October taper-vs-maintain decision point.
