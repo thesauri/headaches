@@ -430,3 +430,45 @@ This is not evidence the PT stopped working. The spring substrate gains are most
 - Whether the Jun 23–24 back-to-back becomes a recurring clustering pattern or stays isolated.
 - Ibuprofen frequency — keep it well clear of the ≥15 days/month MOH line as summer triggers persist.
 - Carry forward the ~mid-October taper-vs-maintain decision point.
+
+## 2026-07-14 — Pre-Visit Check-In (since the Jun 30 note)
+
+### Headache Rate — the June regression fully reversed
+
+| Period | Headache Days | Rate | Notes |
+|---|---|---|---|
+| Pre-PT (Mar 23 – Apr 13) | 9 / 22 | ~41% | Baseline |
+| PT calm window (May 7 – Jun 1) | 4 / 20 | ~19% | Prior best |
+| Since Jun 2 visit (Jun 2 – Jun 30) | ~8 / 29 | ~28% | Summer trigger pile-up |
+| **This period (Jun 30 – Jul 14)** | **0 / 14** | **0%** | Cleanest window in the dataset |
+| **Last 7 days (Jul 8 – Jul 14)** | **0 / 7** | **0%** | Full week headache-free |
+
+The June uptick was triggers, not a loss of substrate gains — exactly as the Jun 30 note argued. Two weeks with **zero headaches**, the best stretch since tracking began. This held through continued heat/sun exposure (range in sunlight, a 1-year party, an outdoor football match, baby swim) and several poor-sleep nights — the substrate buffer absorbed trigger loads that were producing "klassisk huvudvärk" a month ago.
+
+**One near-miss, well-handled (Jul 13):** woke feeling a headache might come on; took 400 mg ibuprofen preventively before golf in the sun; no headache resulted. This is the only ibuprofen day in the whole period — down from ~6 in June, comfortably clear of the MOH line.
+
+### Neck Stiffness — held at 2, did NOT return toward 1
+
+The clean read the Jun 30 note asked for. With triggers settled and headaches gone, resting stiffness still did not drop back to 1:
+
+| Window | Avg neck stiffness (0–3) |
+|---|---|
+| May 7 – Jun 1 (calm) | 1.45 |
+| Since Jun 2 | 1.78 |
+| **Jun 30 – Jul 14** | **1.71** (10 of 14 entries at level 2) |
+| **Last 7 days** | **1.86** |
+
+This is the headline for the visit: **stiffness has decoupled from headaches.** Headaches resolved completely while resting stiffness stayed pinned at ~2 — even ticked up slightly in the final week. Several mornings logged explicit left-side stiffness (Jul 3, Jul 4) that notably did **not** convert to a headache. So the stiffness baseline of 2 looks like a stable resting state, not a headache precursor right now. Hydration steady at 2.0 — not a dehydration story.
+
+### Exercise Observations to Relay
+
+- **L≫R asymmetry persists** (Jul 4): still more tension in the **left** upper arm on the supine band-overhead pass. Third independent corroboration of the L≫R restriction both PTs found in April and the Jun 27 note flagged. This is not resolving with the current program.
+- **Left-side morning stiffness without headache** (Jul 3, Jul 4): repeated, lateralized to the same side as the band block — worth connecting these two observations for the PT.
+- **Jul 8 in-clinic treatment:** suction cups on the neck + back massage "to get the spine going." Report how the following days felt (headache-free, stiffness unchanged).
+- **Jul 1 clinic note:** PT could feel the "peanut" exercise had been done; agreed the June uptick was trigger-driven (heat, poor sleep, driving/flying).
+
+### Open Questions for the Visit
+
+- **Why does resting stiffness hold at 2 even with headaches gone?** Is a baseline of 2 acceptable, or does the persistent left-sided restriction call for a targeted addition?
+- **The L≫R band block hasn't shifted** across ~3 weeks — does the program need adjusting to address the lateralized restriction directly?
+- Carry forward the ~mid-October taper-vs-maintain decision — the two-week zero streak is an argument for maintain-and-reassess rather than tapering now.
