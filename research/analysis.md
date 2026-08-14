@@ -472,3 +472,84 @@ This is the headline for the visit: **stiffness has decoupled from headaches.** 
 - **Why does resting stiffness hold at 2 even with headaches gone?** Is a baseline of 2 acceptable, or does the persistent left-sided restriction call for a targeted addition?
 - **The L≫R band block hasn't shifted** across ~3 weeks — does the program need adjusting to address the lateralized restriction directly?
 - Carry forward the ~mid-October taper-vs-maintain decision — the two-week zero streak is an argument for maintain-and-reassess rather than tapering now.
+
+---
+
+## 2026-08-13 — Four-Month PT Point: Widening the Search
+
+### Data Overview
+
+14 diary entries covering Jul 15 – Aug 13 (~30 days). Logging went intermittent during the Sweden/Finland trip (Jul 17 onward) — but the catch-up entries explicitly state the gaps were headache-free ("Ingen huvudvärk sen jag sist skrev"), so calendar days are the honest denominator.
+
+### Headache Rate
+
+| Period | Headache Days | Rate | Notes |
+|---|---|---|---|
+| Pre-PT (Mar 23 – Apr 13) | 9 / 22 | ~41% | Baseline |
+| Best window (Jun 30 – Jul 14) | 0 / 14 | 0% | Cleanest stretch in dataset |
+| **This period (Jul 15 – Aug 13)** | **7 / ~30** | **~23%** | Includes a 4-day cluster |
+| Near-misses aborted with preventive ibuprofen | 3 | — | Aug 10, Aug 11, Aug 13 morning |
+
+The zero streak broke on Jul 16 and the month landed back at roughly the post-PT average (~20–25%). Counting the three ibuprofen-aborted near-misses as sub-threshold events, the underlying "system wants to produce a headache" rate is closer to 10 events / 30 days — the substrate is clearly still active.
+
+### The Headline Finding: Golf Triggers WITHOUT Heat
+
+The single most model-relevant observation of the period. The Jul 27–30 cluster (4 consecutive headache days, the longest run since May 3–6) was golf-triggered — **in cloudy, lightly rainy, 17–20°C Finnish weather**:
+
+- Jul 27: headache started "rätt snart efter" golf. Explicitly noted: "inte särskilt varmt"
+- Jul 28: more golf, similar cool/cloudy weather; morning headache had survived overnight ibuprofen
+- Jul 29: took off in the sauna after golf
+- Jul 30: took off during golf, milder
+
+Since Jan, golf headaches were attributed to **sun/heat exposure** (Jan 12, Mar 29, Apr 11, May 3 — all sunny, hot days). This cluster breaks that confound: golf without heat still triggers. The mechanical act itself — repeated high-velocity cervical/thoracic rotation, sustained flexed address posture, walking with a bag — is sufficient. This retroactively weakens the heat/vasodilation hypothesis as the primary trigger mechanism and strengthens a **mechanical/rotational cervical** mechanism. It also converges precisely with the PT's independent suspicion (below): instability provoked by running and golf.
+
+(Heat isn't exonerated as a co-trigger — but it now looks like an amplifier, not the mechanism.)
+
+### Second Ibuprofen Non-Response (Jul 16)
+
+"Rejäl huvudvärk" that did not resolve despite ibuprofen — only the second treatment failure ever (first: May 5). Notable features: no classic trigger (dark, cool lab environment; no heat/alcohol/exertion), **best sleep in a week** (9h 2min, 93/100) preceding it, and a very late lunch (14:00). Walter flagged the sleep irony himself. Fits the "sleep-in / let-down" phenotype more than the cervicogenic one. Unprovoked-severe is the phenotype the Jun 6 note said to watch.
+
+### Other Signals
+
+- **Neck stiffness: avg 2.14** — the highest of any period (May calm: 1.45; Jun: 1.78; early Jul: 1.71). Now pinned at 2 with several 3s (Jul 24 after 2h supine with Arthur on chest; Aug 13 after the Chicago flight). The stiffness-headache decoupling noted Jul 14 persists, but the resting baseline continues to drift up, not down, at month 4 of PT.
+- **Exercise adherence lapsed** during travel (explicitly noted Jul 19, Jul 24, Jul 27) — the cluster occurred during the lapse, which is consistent with the program mattering but confounds interpretation of the cluster.
+- **Preventive ibuprofen is now a working strategy**: 4 of 4 successes (Jul 13, Aug 10, Aug 11, Aug 13). Walter can feel the prodrome reliably enough to abort episodes.
+- **Ibuprofen days: ~8 this month** — up from ~4.5/month baseline and ~1 in early July. Still under the ≥15 days/month NSAID MOH line, but the trend and the growing preventive use both push the wrong way. Worth explicit monitoring.
+- **Robustness signals remain**: sauna + drinks + 9.5h flight (Aug 11) and a full wedding party (Aug 8) produced no real headache — events that would have been near-certain triggers pre-PT.
+
+### 2026-08-13 PT Visit — Decision to Widen the Search
+
+Four months in, both Walter and the physiotherapist agree the response is incomplete: real improvement happened (frequency, severity, clustering all better than baseline; two 13–14 day clean stretches), but the PT states he **usually sees more improvement, faster** in cervicogenic cases, and the resting stiffness has never normalized. **He recommends a neurologist.**
+
+His summary of what he has been treating:
+
+> **Cervicogenic headache (from the neck) combined with cervical instability (provoked by running or golf).**
+
+The instability component is new to these notes as an explicit diagnosis, and it independently matches this month's headline finding — golf triggering without heat.
+
+**VBI test re-run: partially positive.** Sustained head positioning reproduced **dizziness and double vision (diplopia)**. This is the most clinically significant single finding in the entire dataset:
+
+- A positive vertebrobasilar insufficiency screen means provocative neck positioning reproduces symptoms attributable to reduced posterior-circulation blood flow (the vertebral arteries thread through the cervical vertebrae and are mechanically loaded by rotation/extension).
+- Diplopia is a hard neurological sign (brainstem/posterior circulation territory), not a musculoskeletal one.
+- Combined with the instability suspicion and mechanical-rotation triggers (golf, running), this raises structural/vascular hypotheses that PT cannot address and that imaging can directly evaluate.
+
+**Practical implication until evaluated:** avoid end-range cervical rotation/extension positions and any cervical manipulation (thrust adjustments); be alert for the classic posterior-circulation warning signs (sudden dizziness, double vision, slurred speech, drop attacks, numbness, nausea with head positions) occurring *spontaneously* — those would warrant urgent care, not a scheduled appointment.
+
+### Status of the Working Model
+
+| Pathway | Status at month 4 |
+|---|---|
+| Cervicogenic substrate | Partially confirmed — PT produced real but incomplete gains; stiffness never normalized |
+| Heat / sun | **Downgraded** — golf triggers without heat; heat is an amplifier, not the mechanism |
+| Mechanical rotation (golf, running) | **Upgraded** — now the best-supported specific trigger; matches PT's instability finding |
+| Cervical instability + possible vascular involvement | **New primary hypothesis** — VBI partial positive with diplopia; needs neurological workup |
+| Stress / let-down | Intact, secondary (Jul 16 fits this phenotype) |
+| Alcohol / sleep | Intact, secondary; increasingly survivable (Aug 8, Aug 11) |
+
+### Next Steps
+
+1. **Neurology referral** — see the accompanying research note on specialist choice and workup.
+2. **Pause end-range neck positions and any manipulation** pending vascular clearance.
+3. **Continue tracking unchanged**; add a note field for dizziness/visual symptoms — these are now first-class variables, not incidental.
+4. **Watch ibuprofen frequency** (~8 days/month and rising; MOH line is 15).
+5. Restart the home program (adherence lapsed since ~Jul 19) — the gains it produced are real regardless of what the neurologist finds.
