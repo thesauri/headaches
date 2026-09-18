@@ -553,3 +553,66 @@ The instability component is new to these notes as an explicit diagnosis, and it
 3. **Continue tracking unchanged**; add a note field for dizziness/visual symptoms — these are now first-class variables, not incidental.
 4. **Watch ibuprofen frequency** (~8 days/month and rising; MOH line is 15).
 5. Restart the home program (adherence lapsed since ~Jul 19) — the gains it produced are real regardless of what the neurologist finds.
+
+---
+
+## 2026-09-18 — Neurology Search
+
+### Data Since Aug 13
+
+10 diary entries covering Aug 14 – Sep 14 (~32 days) — logging is sparse, with an unexplained gap Aug 21–29, so the rate is a rough read.
+
+- **Headache days:** Aug 19 (long workdays, poor sleep; ibuprofen helped a little), Sep 2–3 ("rejäl huvudvärk" after very poor sleep, crept on in the morning and bloomed in the afternoon; lingered next day as a point at the **left eyebrow**), Sep 13 (neck stiffness 3; ibuprofen helped somewhat by evening).
+- **Near-miss:** Sep 10 — strong neck warning signs all morning (stiffness 3), ibuprofen ~11:00, no headache developed.
+- **Negative results:** evening golf Aug 30 → nothing; Sep 6 very tense neck + a couple of beers → nothing (long walk in cloudy weather seemed to help).
+- **Ibuprofen:** ~3–4 days in the period — down from ~8 the month before.
+- **Neck stiffness:** still reaching 3 (Sep 10, Sep 13); the baseline has not normalized.
+
+Roughly the same ~20–25% band as the post-PT average. Nothing here changes the Aug 13 model; poor sleep shows up as the stated trigger for the one severe episode.
+
+### Insurance
+
+Plan (from the card): **Aetna Open Access Managed Choice POS, with NAP.**
+
+- **Open Access** = no referrals needed; specialists can be booked directly. Functionally PPO-like (in- and out-of-network tiers), which is why earlier notes say "PPO".
+- **NAP** (National Advantage Program) = discounted, no-balance-bill rates at some *out-of-network* providers. Still out-of-network cost sharing.
+- Verify providers in Aetna's member directory under this exact plan name — clinic websites only say "Aetna".
+- Imaging (MRA/CTA) may need precertification; confirm the ordering office obtained it before the scan.
+
+### Hoag Headache Program = Newport Beach Neurologists
+
+Hoag's headache program forwarded to Newport Beach Neurologists, which is **out of network**. Not stale website info: "Christopher P. O'Carroll" (Hoag) and "C. Philip O'Carroll" (nbneuro.com) are the same person — he directs the Hoag program and sees patients through his private practice. Hoag's headache team page lists only him and an orofacial-pain dentist. Insurance networks contract with the physician's group, not with "Hoag".
+
+### Strategy: Split the Two Jobs
+
+Crystal Jicha (UCI, the best local fit) has a **~1 year wait** — waitlisted 2026-09-18. That is too long for the VBI/diplopia question, so:
+
+**Job 1 — vascular clearance, now, locally.** Needs a neurological exam and likely MRA/CTA of the neck vessels; does not require a headache subspecialist. Hoag Physician Partners (a different entity from O'Carroll's practice; profiles list Aetna, accepting new patients):
+
+| Who | Notes | Contact |
+|---|---|---|
+| David M. Brown, MD | Stroke/cerebrovascular fellowship (Mount Sinai) — closest match to the VBI finding | 520 Superior Ave Ste 205, Newport Beach · 949-764-1843 |
+| Jose J. Puangco, MD | General neurologist; headache disorders listed first among interests, Botox for chronic migraine; fellowships in neurophysiology + sleep | 510 Superior Ave Ste 200A, Newport Beach · 949-764-8070 |
+
+**Job 2 — headache subspecialist, wider net.** All list Aetna on the program's site unless noted; verify the specific plan.
+
+| Option | Notes | Contact |
+|---|---|---|
+| Crystal Jicha, MD (UCI) | Headache & facial pain fellowship (Montefiore); nerve blocks, trigger points. **Waitlisted, ~1 yr.** | UCI Health Newport–MacArthur · 714-880-7812 |
+| UCI Headache Program, first available | Ask for any headache provider incl. NPs. UCI still lists Nan Cheng, MD (Mayo headache fellowship) — she also runs the cash-only Irvine Headache Care, so the listing may be stale; ask. | 714-456-7720 |
+| Keck/USC Headache & Neuralgia Center | Soma Sahai-Srivastava, MD (UCNS headache-certified, fellowship director); telehealth; occipital neuralgia + headache PT programs. Keck also has a Newport Beach clinic advertising headache care — which headache physician staffs it is unconfirmed. | 323-442-5710 / 800-872-2273 · Newport Beach clinic 949-688-9000 |
+| UCLA Goldberg Migraine Program | Largest headache faculty in SoCal (~8 clinicians) | 310-794-1195 · Westwood |
+| UC San Diego Headache Center | Director M. Wasif Hussain; Aetna not confirmed | Sorrento Valley |
+| OC Migraine & Headache Center (Rossknecht) | Unverified — site was unreachable | — |
+
+Skipped: Irvine Headache Care (Nan Cheng; UCNS-certified but direct-pay/superbill), Shawn Zardouz (pain + neurology, no insurance info), Andrew Ly (Hoag; actually epilepsy/EMG).
+
+**Shortening waits:** tell every scheduler the PT found a *positive VBI screen with diplopia* and ask the PT to fax a referral note saying so (academic clinics triage new patients); ask for first available with any headache provider plus the cancellation list; stay on Jicha's waitlist.
+
+### Next Steps
+
+1. Book Brown or Puangco — whichever is sooner — for the vascular question.
+2. Call Keck and UCLA for wait times; ask UCI about Cheng / first available.
+3. Verify each in Aetna's directory under Open Access Managed Choice POS.
+4. Standing precautions from Aug 13 remain: no end-range neck positions or manipulation until cleared; spontaneous dizziness, double vision, slurred speech, or numbness → urgent care, not a scheduled visit.
+5. Logging has gone sparse (10 entries in 32 days) — daily entries matter more now, since the neurologist will want the record; note any dizziness/visual symptoms explicitly.
