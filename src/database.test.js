@@ -55,7 +55,7 @@ describe("createDatabase", () => {
     database.updateEntry(id, { has_headache: 1 });
     database.updateEntry(id, { neck_stiffness: 2 });
     database.updateEntry(id, { screen_hours: 6.5 });
-    database.updateEntry(id, { hydration: 1 });
+    database.updateEntry(id, { sensitivity: "light" });
 
     const row = database.db
       .prepare("SELECT * FROM headaches WHERE id = ?")
@@ -63,7 +63,7 @@ describe("createDatabase", () => {
     expect(row.has_headache).toBe(1);
     expect(row.neck_stiffness).toBe(2);
     expect(row.screen_hours).toBe(6.5);
-    expect(row.hydration).toBe(1);
+    expect(row.sensitivity).toBe("light");
   });
 
   it("does not overwrite existing fields when updating others", () => {
@@ -87,5 +87,29 @@ describe("createDatabase", () => {
     expect(columns).toContain("neck_stiffness");
     expect(columns).toContain("screen_hours");
     expect(columns).toContain("hydration");
+    expect(columns).toContain("sensitivity");
+    expect(columns).toContain("parent_id");
+  });
+
+  it("finds the latest entry for a user", () => {
+    expect(database.findLatestEntry(123)).toBeNull();
+
+    const id = database.recordHeadache(123, "main entry");
+    database.recordHeadache(456, "someone else");
+    const followUpId = database.recordHeadache(123, "follow-up", id);
+
+    const latest = database.findLatestEntry(123);
+    expect(latest.id).toBe(followUpId);
+    expect(latest.parent_id).toBe(id);
+    expect(latest.created_at).toMatch(/^\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}$/);
+  });
+
+  it("promotes a follow-up to a full entry", () => {
+    const id = database.recordHeadache(123, "main entry");
+    const followUpId = database.recordHeadache(123, "follow-up", id);
+
+    database.promoteToEntry(followUpId);
+
+    expect(database.findLatestEntry(123).parent_id).toBeNull();
   });
 });

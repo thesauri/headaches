@@ -616,3 +616,85 @@ Skipped: Irvine Headache Care (Nan Cheng; UCNS-certified but direct-pay/superbil
 3. Verify each in Aetna's directory under Open Access Managed Choice POS.
 4. Standing precautions from Aug 13 remain: no end-range neck positions or manipulation until cleared; spontaneous dizziness, double vision, slurred speech, or numbness → urgent care, not a scheduled visit.
 5. Logging has gone sparse (10 entries in 32 days) — daily entries matter more now, since the neurologist will want the record; note any dizziness/visual symptoms explicitly.
+
+---
+
+## 2026-09-19 — The "Saturday Headache": Migraine Moves Up
+
+### Today's Episode
+
+Entry 200 (Sat Sep 19): "Klassisk lördagshuvudvärk igen." Present on waking, persisted all day. Neck stiffness 3.
+
+- **Nothing in the usual toolkit worked**: 400 mg ibuprofen in the morning, exercises immediately on waking, a long walk under cloud cover (walks normally help — May 5, May 22, Jun 22, Sep 6). No relief from any of it.
+- **Sleep**: 9 h, slept well, woke ~07:00 (not much later than normal — so an early bedtime, i.e. recovery sleep, not a lie-in).
+- **Preceding days**: Thursday and Friday were unusually heavy, stressful workdays due to a conflict at work; still ruminating on it Saturday.
+- **Caffeine**: coffee immediately on waking, as always → caffeine-timing hypothesis effectively ruled out for this episode.
+- **Still a stomach sleeper, on a soft mattress.**
+- **First recorded photophobia**: light-sensitive, did not want to go out in the sun. Sounds "not that annoying" (no clear phonophobia). No nausea.
+
+### What the Logs Say About This Phenotype
+
+**Long sleep.** Through Aug 13 (rough, text-parsed sleep durations): nights ≥ 8 h 45 min were followed by a headache day 7 / 17 times (41%) vs. 33 / 126 (26%) for shorter nights. Small n with clean counter-examples (Jan 24–25, Jun 6, Jul 11), but the long-sleep headaches include some of the worst wake-up episodes: Jan 17 (~9 h, 99/100), Mar 21 ("sov gott, men länge", woke with rejäl huvudvärk), Jul 15 (9 h 2 min, ibuprofen failed — Walter flagged the irony himself), and now Sep 19.
+
+**Stress → let-down.** Closest precedent is the RAVE deadline week: Apr 8 woke with a "molande", different-feeling headache after stress-disturbed sleep, ibuprofen only "lättade lite"; Apr 12 the self-named "klassiska helghuvudvärk" arrived once the week was over. This week has the same shape: two unusually stressful days, then a weekend morning with a long recovery sleep. Ongoing rumination means stress and let-down are probably both in play.
+
+**Ibuprofen response separates the pathways.** Ibuprofen reliably clears golf/heat/neck-type episodes and works 5/5 when taken at the prodrome (Jul 13, Aug 10, 11, 13, Sep 10). The episodes where it underperforms cluster on the stress / sleep-change side: Apr 8 ("lättade lite"), Jul 15 (9 h sleep, no response), Aug 19 (long workdays + poor sleep, "hjälpte litegrann"), Sep 13 ("lite bättre mot kvällen"), Sep 19 (no response). May 4 (mid-cluster) is the other failure. This **corrects the Mar 22 inference** that ibuprofen response argued against migraine — the response is pathway-dependent, and the non-responsive pathway looks the most migraine-like.
+
+**Weekday.** Saturday itself is not a clean signal (rough count through Aug 13: Sat 43% vs. 30% overall, but Wed equally high). The specific phenotype is *wake-up onset + long/changed sleep + end of a stressful stretch + poor NSAID response*, not the day of the week.
+
+**Sleep position.** Stomach sleeping was flagged Mar 22 as the prime suspect for waking at threshold; the soft mattress was questioned Mar 10 and the mattress flipped Mar 22; the Apr 20 "observe rotation direction" item was never followed up. Nine hours prone = ~2 extra hours at end-range cervical rotation/extension, on a mattress that lets the hips sink. Also directly relevant to the Aug 13 precaution (avoid sustained end-range rotation pending vascular clearance) — nightly prone sleeping is the largest dose of exactly that. Worth stating to the neurologist. Cannot be separated from the stress pathway on today's evidence; plausibly additive (stress lowers the threshold, the night loads the neck).
+
+### Reframing: Migraine With the Neck as Trigger/Amplifier
+
+The Mar 22 note discounted migraine partly on sex ratio (weak reasoning — migraine is still common in men) and partly on ibuprofen response (see above). Walter's own reason for discounting it: his headaches are not as severe as the dark-room picture of migraine — most days he is dragged down but can function if he pushes. That describes the severe tail, not the diagnosis: the criteria require *moderate or severe* pain, and "don't feel like doing anything, can push through" is the typical moderate attack.
+
+Evidence in the record pointing toward migraine:
+
+- Lifelong; attacks last many hours to days; multi-day clusters
+- Aggravated by exertion ("skulle blomma ut ifall jag skulle springa"; Jan 17, Mar 14) — a formal criterion
+- Recognisable premonitory phase hours ahead or the night before (May 15→16), often felt *as neck stiffness* — a common migraine prodrome that is easily mistaken for the cause (fits stiffness 3 preceding Sep 10, Sep 13, Sep 19, and the Jul 14 "stiffness decoupled from headaches" finding)
+- Trigger list is the textbook one: alcohol (incl. delayed next-morning attacks), too little *and* too much sleep, stress let-down, late/missed meals (Jul 15, Jul 27), heat, bright sun
+- Often lateralised to a point (left temple Jan 11–12, Feb 21–22; left eyebrow Sep 3)
+- Jun 13: nausea, cold sweats, could not eat — self-described "rejäl migrän" (alcohol-confounded). Walter reports this dark-room-like state is typical of mornings after moderate-to-heavy drinking.
+- Photophobia today
+- The PT sees faster, fuller responses in pure cervicogenic cases; resting stiffness never normalised
+
+Evidence for the neck stands: PT provoked the typical headache from the neck (Apr 14), the program produced real gains, golf triggers without heat, stiffness ≥ 2 doubled the spring headache rate. These are compatible — upper-cervical and trigeminal pain input converge in the same brainstem relay, so in a migraine-prone system the neck can be the trigger. That would explain why PT helped (less input) but plateaued (not the whole disorder).
+
+**Criteria status (ICHD-3 migraine without aura), honestly:** duration ✓; moderate intensity ✓; aggravated by / avoidance of activity ✓; unilateral sometimes. The associated-symptom criterion needs nausea *or* photophobia **and** phonophobia — today has photophobia only, so today alone reads as *probable migraine*. The diary has never systematically recorded these symptoms, so their absence in older entries is uninformative. On the 3-item ID-Migraine screen (photophobia, nausea, functional limitation) the record supports 2 of 3, with nausea on the worst days.
+
+**Possible re-read of the "sun" pattern.** Jan 14 ("kändes som att solen gjorde det värre" on a 5-minute walk), range sessions blooming "i fullt solsken", versus cloudy walks being reliably fine or helpful. First attributed to heat (Mar 22), then to mechanics (Aug 13). Bright light is itself a migraine trigger and prodromal photophobia makes sun feel aggravating before pain starts — some of "sun" may have been glare. Not the whole story (golf triggered under Finnish cloud, Jul 27–28).
+
+### Status of the Working Model
+
+| Pathway | Status |
+|---|---|
+| Migraine (primary disorder) | **Upgraded** — probable; best explains the stress/sleep/alcohol episodes, NSAID non-response, prodrome, photophobia. Needs specialist confirmation. |
+| Cervicogenic substrate / mechanical rotation | Intact — now framed as the main trigger/amplifier rather than the whole disorder |
+| Stress / let-down | **Upgraded** from secondary — Apr 8–12 and Sep 17–19 are near-identical; the NSAID-refractory episodes live here |
+| Sleep change (both directions) | Upgraded — long sleep joins short sleep (Mar 17, May 25, Sep 2) |
+| Prone sleeping on a soft mattress | Untested since Mar 22; only fully modifiable contributor to wake-up headaches |
+| Caffeine timing | Ruled out for this phenotype (coffee immediately on waking) |
+| Hydration | Dropped from tracking — no signal in ~6 months of data |
+| VBI partial positive / diplopia | Unchanged — still needs vascular clearance first |
+
+### Mitigation Experiments
+
+1. **Sleep position**: body pillow to hold a three-quarter side position (neck ~30–45° instead of ~90°), firmer mattress or topper. Readout: morning neck stiffness and wake-up headaches over 2–3 weeks.
+2. **Protect the Saturday after a heavy week**: normal wake time, cap sleep at ~8–8.5 h, walk Friday evening, and end the (already nightly) journal entry with a concrete next step on whatever is unresolved rather than a replay of it.
+3. **Treat at the prodrome, not on waking**: if the warning is there Friday evening (as on May 15), that is the window — though bedtime ibuprofen failed once (Jul 27), so treat as an experiment.
+4. **Sunglasses/cap on bright prodrome days** — cheap test of the glare re-read.
+5. Keep the PT home program.
+
+### For the Neurologist
+
+- Sequence matters: triptans are vasoconstrictors, so the VBI/diplopia question (Brown or Puangco, per the Sep 18 plan) likely needs answering before migraine-specific acute treatment is prescribed. Job 1 is a prerequisite for Job 2, not a parallel track.
+- Ask explicitly about a **triptan trial** for the wake-up / let-down / NSAID-refractory phenotype — response is diagnostically informative — and whether frequency (~6–8 days/month) warrants prevention.
+- Don't undersell it: describe frequency, lost weekends, NSAID failures, photophobia, and the morning-after-alcohol attacks rather than "I can function".
+
+### Tracking Changes (bot updated 2026-09-19)
+
+- **Hydration question removed** (no signal; column kept for history).
+- **New symptoms question, asked only on headache days**: sensitivity to light/sound/smells, nausea, pulsating, one-sided — free text, stored in `sensitivity`. This is the data the migraine criteria need and the diary has never had.
+- **Same-day follow-ups** are stored as free-form updates linked to the day's entry (`parent_id`) instead of re-asking the questions.
+- Still worth noting in free text: stress level, sleep position/pillow setup, bedtime.

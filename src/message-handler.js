@@ -11,6 +11,12 @@ const QUESTIONS = [
     retry: "Please answer yes or no",
   },
   {
+    key: "sensitivity",
+    when: (answers) => answers.has_headache === 1,
+    ask: 'Any sensitivity or other symptoms? (light, sound, smells, nausea, pulsating, one-sided… or "no")',
+    parse: (text) => text,
+  },
+  {
     key: "neck_stiffness",
     ask: "Neck stiffness? (0=none, 1=light, 2=moderate, 3=severe)",
     parse: (text) => {
@@ -28,20 +34,27 @@ const QUESTIONS = [
     },
     retry: "Please enter a number (e.g. 6 or 4.5)",
   },
-  {
-    key: "hydration",
-    ask: "Hydration? (0=dehydrated, 1=partly, 2=well hydrated)",
-    parse: (text) => {
-      const n = parseInt(text, 10);
-      return n >= 0 && n <= 2 ? n : null;
-    },
-    retry: "Please enter a number 0-2",
-  },
 ];
 
-export function createMessageHandler(database, logger) {
+function nextStep(step, answers) {
+  while (step < QUESTIONS.length && QUESTIONS[step].when?.(answers) === false) {
+    step++;
+  }
+  return step;
+}
+
+function localDay(date, timezone) {
+  return date.toLocaleDateString("sv-SE", { timeZone: timezone });
+}
+
+export function createMessageHandler(database, logger, timezone = "UTC") {
   const log = logger.child({ module: "message-handler" });
   const sessions = new Map();
+
+  function startSession(userId, entryId) {
+    sessions.set(userId, { entryId, step: 0, answers: {} });
+    return QUESTIONS[0].ask;
+  }
 
   function handleMessage(message) {
     const userId = message.from?.id;
@@ -67,10 +80,33 @@ export function createMessageHandler(database, logger) {
     const session = sessions.get(userId);
 
     if (!session) {
+      const latest = database.findLatestEntry(userId);
+
+      if (text.toLowerCase() === "/new" || text.toLowerCase() === "new") {
+        if (!latest?.parent_id) {
+          return "Nothing to convert";
+        }
+        database.promoteToEntry(latest.id);
+        log.info({ userId, entryId: latest.id }, "Follow-up promoted to entry");
+        return startSession(userId, latest.id);
+      }
+
+      const now = message.date ? new Date(message.date * 1000) : new Date();
+      const loggedToday =
+        latest &&
+        localDay(new Date(`${latest.created_at.replace(" ", "T")}Z`), timezone) ===
+          localDay(now, timezone);
+
+      if (loggedToday) {
+        const parentId = latest.parent_id ?? latest.id;
+        const id = database.recordHeadache(userId, text, parentId);
+        log.info({ userId, entryId: id, parentId }, "Follow-up recorded");
+        return 'Added to today\'s entry ✓\n(type "new" to answer the questions for this one instead)';
+      }
+
       const id = database.recordHeadache(userId, text);
       log.info({ userId, entryId: id }, "Entry recorded");
-      sessions.set(userId, { entryId: id, step: 0 });
-      return `Recorded ✓\n\n${QUESTIONS[0].ask}`;
+      return `Recorded ✓\n\n${startSession(userId, id)}`;
     }
 
     const question = QUESTIONS[session.step];
@@ -86,7 +122,8 @@ export function createMessageHandler(database, logger) {
       "Entry updated"
     );
 
-    session.step++;
+    session.answers[question.key] = value;
+    session.step = nextStep(session.step + 1, session.answers);
 
     if (session.step >= QUESTIONS.length) {
       sessions.delete(userId);

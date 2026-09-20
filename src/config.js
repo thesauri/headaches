@@ -7,6 +7,17 @@ const envSchema = z.object({
   BOT_MODE: z.enum(["polling", "webhook"]).default("polling"),
   WEBHOOK_URL: z.string().optional(),
   WEBHOOK_SECRET: z.string().optional(),
+  TIMEZONE: z
+    .string()
+    .default("America/Los_Angeles")
+    .refine((tz) => {
+      try {
+        new Intl.DateTimeFormat("en-US", { timeZone: tz });
+        return true;
+      } catch {
+        return false;
+      }
+    }, "TIMEZONE must be a valid IANA time zone"),
 });
 
 export function loadConfig(env = process.env) {

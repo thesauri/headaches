@@ -11,7 +11,7 @@ const config = loadConfig();
 const logger = createLogger();
 const database = createDatabase(config.DATABASE_PATH, logger);
 const client = createTelegramClient(config.TELEGRAM_BOT_TOKEN, logger);
-const handleMessage = createMessageHandler(database, logger);
+const handleMessage = createMessageHandler(database, logger, config.TIMEZONE);
 const poller = createPoller(client, handleMessage, logger);
 const healthServer = createHealthServer(config.PORT, logger);
 

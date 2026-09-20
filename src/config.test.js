@@ -58,4 +58,13 @@ describe("loadConfig", () => {
 
     expect(() => loadConfig(env)).toThrow();
   });
+
+  it("defaults the timezone and rejects invalid ones", () => {
+    expect(loadConfig({ TELEGRAM_BOT_TOKEN: "123:ABC" }).TIMEZONE).toBe(
+      "America/Los_Angeles"
+    );
+    expect(() =>
+      loadConfig({ TELEGRAM_BOT_TOKEN: "123:ABC", TIMEZONE: "Mars/Olympus" })
+    ).toThrow();
+  });
 });
