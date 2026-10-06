@@ -76,7 +76,7 @@ Exertion-triggered suboccipital headache is the classic Chiari I presentation, a
 ### Ruled out / stayed unlikely
 - **Cluster headache** — excluded on phenomenology since March.
 - **Medication-overuse headache** — currently ~8 ibuprofen days/month vs threshold ≥15, but the trend is up and preventive use is growing. Worth stating the count to the neurologist proactively.
-- **Simple dehydration, screen time, vision** — repeatedly shown non-correlated in the structured data.
+- **Simple dehydration, screen time** — repeatedly shown non-correlated in the structured data. *(Vision was also listed here, but it was never measured — the 2026-10-06 eye exam found mild hyperopia; see `analysis.md`.)*
 
 ---
 

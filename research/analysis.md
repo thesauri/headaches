@@ -17,7 +17,7 @@
 - **Sleep position**: stomach sleeper with pillow — forces sustained end-range cervical rotation (90°) for hours overnight. Strong candidate for why headaches are sometimes already at threshold on waking.
 - **Stretch routine**: daily passive ROM (head turns up/down/sideways, shoulder rolls, lateral tilts, chin forward/back). Missing: deep cervical flexor activation (chin tucks), suboccipital release, and any strengthening component. The routine maintains mobility but doesn't address the likely weakness/motor control deficits.
 - **Caffeine**: 3-4 cups coffee/day, first thing in the morning through ~15:00-16:00. Moderate, consistent intake — unlikely a trigger unless routine is disrupted (weekend schedule change, travel).
-- **Vision**: no glasses or contacts — not a factor
+- **Vision**: no glasses or contacts — not a factor *(corrected 2026-10-06: not wearing glasses was assumed to mean no refractive error; an eye exam found mild hyperopia — see the 2026-10-06 section)*
 - **No neck injury history** — cervical dysfunction is functional, not post-traumatic
 
 ### Demographic Considerations
@@ -698,3 +698,48 @@ Evidence for the neck stands: PT provoked the typical headache from the neck (Ap
 - **New symptoms question, asked only on headache days**: sensitivity to light/sound/smells, nausea, pulsating, one-sided — free text, stored in `sensitivity`. This is the data the migraine criteria need and the diary has never had.
 - **Same-day follow-ups** are stored as free-form updates linked to the day's entry (`parent_id`) instead of re-asking the questions.
 - Still worth noting in free text: stress level, sleep position/pillow setup, bedtime.
+
+---
+
+## 2026-10-06 — Eye Exam: Mild Hyperopia; Two Interventions Start
+
+### Findings
+
+- **Refraction:** R +1.25, L +0.75 (hyperopia, 0.5 D anisometropia — below the ~1 D usually considered clinically significant).
+- **Acuity:** read 20/20 on the chart.
+- **Prescription:** reading glasses at R +1.00 / L +0.50 — deliberately under-corrected, standard for young hyperopes. Walter will wear them part-time for near/screen work, not all day.
+
+20/20 does not mean the hyperopia is harmless: at 30, accommodation (~8 D available) masks +1.25 D for sharp vision, but at the cost of sustained focusing effort — highest during long near-work blocks.
+
+### What It Corrects
+
+The Mar 22 note recorded "Vision: no glasses or contacts — not a factor," and the Aug 13 neurology note repeated it as "repeatedly shown non-correlated." Both were assumptions, not measurements. What *was* measured — screen hours — showed no signal (6.0 h on headache days vs 6.9 h on clear days, Apr 13), which still argues against near-work strain as a major driver.
+
+### Fit Against the Record
+
+Accommodative-strain headache is typically late-day, frontal/brow/temple, after sustained near work, eased by rest. Episodes that could partly fit: evening-onset headaches after laptop-heavy days, the left temple (Jan 12–13, Feb 22), the left-eyebrow point (Sep 3–4).
+
+Most of the pattern does not fit: wake-up / Saturday onset, golf (distance vision, little accommodative demand), alcohol, stress let-down, sleep change, sauna, and pain radiating from the neck. Laterality doesn't match either — the right eye is more hyperopic, while neck findings and focal pain are left-dominant.
+
+**Net:** at most a minor additive trigger for one subset of episodes. The Sep 19 model (migraine-type generator with the neck as trigger/amplifier) stands.
+
+### Two Places It Matters
+
+1. **VBI diplopia.** Uncorrected hyperopia drives accommodative convergence and can decompensate a latent esophoria, giving intermittent diplopia when fatigued — a possible benign contributor to the double vision on the Aug 13 VBI re-test. Worth asking whether binocular vision (cover test / phoria) was checked, and telling the neurologist about the refraction. **It does not replace vascular clearance**; Aug 13 precautions stand.
+2. **Gaze-stabilization drill.** Fixating thumbs at arm's length (~1.7 D demand) on top of +1.25 D uncorrected is real accommodative work — may be part of why the drill "felt like a lot" and why focusing the gaze changed the sensation (Jun 6).
+
+### Intervention Dates
+
+| Date | Change | Expected readout if it works |
+|---|---|---|
+| **Fri 2026-10-02** | Firm mattress installed (from the Sep 19 mitigation plan) | Lower morning neck stiffness; fewer wake-up / Saturday-type headaches |
+| **~2026-10-06** | Part-time reading glasses for near/screen work | Fewer late-day headaches after screen-heavy days; less brow/temple pain and eye fatigue |
+
+The two start four days apart, so they can't be cleanly separated by date. They can be partly separated by **phenotype**: the mattress should act on wake-up episodes and morning stiffness, the glasses on late-day near-work episodes. If wake-up headaches drop, credit the mattress; if evening screen-day headaches drop, credit the glasses.
+
+### Tracking
+
+- Note in free text on each entry whether the glasses were used and roughly for how long.
+- Note sleep position on waking (prone vs side) — the mattress alone doesn't change position, and the Sep 19 plan pairs it with side-sleeping.
+- Keep tagging onset time (on waking vs afternoon/evening) — it's now the main variable that separates the two interventions.
+- Reassess around early November (~4 weeks after both start).
