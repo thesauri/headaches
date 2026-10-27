@@ -155,3 +155,42 @@ FDA-cleared non-drug devices exist (Cefaly trigeminal stimulation, Nerivio REN, 
 ## 6. Honest overall read
 
 The most likely single answer, on current evidence, is **not** one cause but the mixed picture the data has pointed at since April: a **migraine-type central generator** (explaining the trigger profile, let-down pattern, oversleeping/fasting sensitivity, decoupled neck stiffness, and incomplete PT response) sitting on top of a **real cervical contribution** (explaining the L≫R findings, occipital radiation, rotation/golf trigger, and the genuine PT gains). The VBI/diplopia finding is most likely a false positive of a weak test — but it is exactly the kind of finding one images once, properly, and then stops worrying about. The neurologist visit should aim to (a) clear the vascular question with MRA, (b) adjudicate migraine-vs-cervicogenic with a triptan trial and/or GON block, and (c) open the migraine-preventive toolbox if (b) points that way.
+
+---
+
+## 2026-09-22 — Virtual Clinics as a Bridge (Neura Health vs Cove)
+
+Context: local in-person neurology is slow (Jicha ~1 yr; Brown/Puangco unbooked), and the deductible resets from $0 to a high deductible in November. Everything expensive — the MRA/MRI — should be *ordered and scanned* before then. That makes "who can order imaging soonest" the deciding question, not "who is the best headache specialist."
+
+### Neura Health (neurahealth.co)
+
+- **What it is:** a nationwide virtual neurology practice — video visits with board-certified neurologists incl. headache specialists (fellowship/UCNS status not stated on the site; ask for a headache specialist when booking). Serves CA.
+- **Can order labs and scans** at a local in-network facility ([FAQ](https://www.neurahealth.co/faq/what-geographic-locations-does-neura-currently-serve)). This is the capability that matters: an MRA head/neck + MRI brain can be ordered on the strength of the positional-diplopia history.
+- **Insurance:** in-network with Aetna "in select states" ([blog](https://www.neurahealth.co/blog/expanding-access-neura-health-now-in-network-with-most-major-insurance-plans)); CA not confirmed. Check via `app.neurahealth.co/rx-insurance-check` under *Open Access Managed Choice POS*. If in-network: specialist copay. If not: self-pay + superbill.
+- **Cost, self-pay (Neura Flex):** $249 initial (45 min), $154 follow-up (20 min) ([pricing FAQ](https://www.neurahealth.co/faq/how-much-does-neura-cost)). The $35–39/mo membership is coaching + chat — skip it.
+- **Limits:** no hands-on exam or positional provocation; no GON block or other procedures (can refer). Dynamic vascular imaging would still be an academic-center referral.
+
+### Cove (withcove.com)
+
+- **What it is:** Thirty Madison's direct-to-consumer migraine *medication* service. Asynchronous questionnaire (no live visit), migraine-only, treatment-focused. ~$30 copay or $99 consult, $10/mo, generics from $15/mo.
+- **Formulary is good:** sumatriptan/rizatriptan/eletriptan etc., Nurtec, Ubrelvy, topiramate, Qulipta, Aimovig, Emgality.
+- **Cannot order imaging** — refers out when MRI/bloodwork is needed ([how Cove works](https://www.withcove.com/learn/how-cove-works)). A questionnaire cannot adjudicate migraine-vs-cervicogenic or the diplopia finding, and the likely outcomes are either a triptan without vascular clearance (bad) or a referral back to in-person care.
+- **Verdict:** not a diagnostic route. Reasonable later as a cheap refill pipeline once a neurologist has settled the diagnosis and the drug.
+
+### Fit to the two jobs
+
+| Job | Neura Health | Cove |
+|---|---|---|
+| 1. Vascular clearance (MRA) | Can order; scan done locally, in-network, before Nov | No |
+| 2. Diagnosis (ICHD-3 from the diary) | Yes — migraine is a history-based diagnosis and the diary is the history | Questionnaire only |
+| Prodrome medication | Yes — gepant now (no vasoconstriction), triptan after MRA | Yes, but blind to the vascular question |
+| GON block / hands-on exam | Referral only | No |
+
+### Plan
+
+1. **Today:** run Neura's insurance check. Book a Neura Flex initial visit (same-week availability advertised) with a headache specialist, whether or not Aetna is in-network — $249 is cheap next to a year's wait and a high-deductible scan.
+2. **Bring:** diary export, this doc, the Sep 19 analysis section, the PT's one-line summary + VBI/diplopia result, ibuprofen day counts.
+3. **Ask for, in order:** (a) MRA head + neck and MRI brain, ordered now, with precert handled by their office; (b) a diagnosis on the record; (c) ubrogepant or rimegepant for prodrome use immediately — replaces prodrome ibuprofen, no vasoconstriction; (d) a triptan for full attacks once the MRA is clean; (e) referral for a diagnostic GON block if they want the cervicogenic component adjudicated.
+4. **Insurance snag to raise at the visit:** Aetna commonly requires step therapy (failed triptans) before covering gepants. If so, the MRA is what unlocks triptans, which then unlock the gepant — one more reason the scan is step one. Ask the neurologist to document the vascular contraindication to triptans in the PA request; that sometimes bypasses the step.
+5. **Keep the local track:** still call Brown/Puangco — an in-person exam that can actually provoke the diplopia and look for nystagmus adds something a video visit cannot. Take whichever comes first; the imaging order only needs to happen once. Stay on Jicha's waitlist.
+6. **Cove:** park it.
