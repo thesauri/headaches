@@ -921,3 +921,51 @@ The current plan has a **$0 deductible** until a new plan starts in **November**
 3. For the next wake-up or Saturday headache, take sumatriptan early and log the response at 2 hours.
 4. Log daily, including medication taken (name, time, effect) and propranolol side effects.
 5. Before the December follow-up, compare headache days per month, golf outcomes, and triptan response against the Sep 20 – Oct 26 baseline.
+
+---
+
+## 2026-11-08 — Check-In: First 12 Days of Treatment
+
+### Data Overview
+
+9 new database rows (ids 216–224), covering Oct 27 – Nov 8. Dates are local (Pacific; PDT until Nov 1, PST after). Two rows are follow-ups (219 → 218, 223 → 222).
+
+That leaves 7 logged days: **0 headache days** (Oct 27, 28, 29, 30; Nov 4, 6, 8). Oct 31 – Nov 3, Nov 5 and Nov 7 are unlogged.
+
+| Period | Calendar days | Logged days | Headache days | Rate bounds |
+|---|---|---|---|---|
+| Sep 20 – Oct 26 (baseline) | 37 | 13 | 8 | 22% – 62% |
+| Oct 27 – Nov 8 (treatment) | 13 | 7 | 0 | 0% – 0%* |
+
+\* Upper bound assumes no headache on unlogged days was missed. A headache day going unlogged is less likely than a clear one, but not impossible.
+
+### Medication Log
+
+| Date | Medication | Notes |
+|---|---|---|
+| Oct 28 | **Propranolol ER 60 mg, first dose** (bedtime) | Main intervention date. Nightly since (assumed; not logged daily) |
+| Oct 29 | Sumatriptan 25 mg (first dose) | Taken at a felt prodrome in the morning. No headache. About an hour later "almost like I'd had a beer", a bit absent. Entry 219 is cut off mid-word |
+| Nov 6 | Sumatriptan | Morning: much stiffer neck than since starting medication, after a 25-min run the evening before (first run in a long while). No headache; neck a little better, still stiff |
+| Nov 8 | Sumatriptan | Felt one coming. No headache, despite being outdoors at midday in sun at 29 °C |
+
+Magnesium and riboflavin start dates are not recorded. Indomethacin hasn't been used (no golf logged).
+
+### Readout
+
+- **Sumatriptan at prodrome: 3 of 3 aborted.** Nov 8 is the strongest case, since sun and heat have been reliable triggers. The caveat is the same as for ibuprofen: not every prodrome turns into a headache (Nov 4 resolved without medication), and prodrome-dosed ibuprofen worked 5 of 7 times. Not yet tested: a headache that has already started, and a Saturday / wake-up headache.
+- **Propranolol is too new to credit.** 11 days in, against a typical 4–8 weeks to effect. The zero-headache stretch is more likely driven by sumatriptan at prodrome so far. Running 25 min on it went without a recorded problem.
+- **Side effect:** the "tipsy" feeling after the first dose is a common, benign triptan sensation. Not reported after the next two doses.
+- **Running → neck stiffness → prodrome (Nov 5–6)** is consistent with the exercise-headache diagnosis. This time it stopped at stiffness and was caught with sumatriptan.
+
+### Safety
+
+- **Triptan pace:** 3 doses in 11 days, about 8 a month. The medication-overuse threshold is 10 triptan days a month. Count doses per calendar month; if November passes ~6–8, ask the neurologist about the plan.
+- No NSAID use logged in this period.
+
+### Next Steps
+
+1. Log every day, including clear ones. Add medication taken (name, time) and propranolol side effects.
+2. Record magnesium and riboflavin start dates.
+3. Fill in the `sensitivity` field (light, sound, nausea, throbbing, side) whenever there's a prodrome or headache.
+4. Next golf or range session: indomethacin protocol, and log the outcome.
+5. Check why entry 219 was cut off (bot or message length).
