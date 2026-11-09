@@ -743,3 +743,181 @@ The two start four days apart, so they can't be cleanly separated by date. They 
 - Note sleep position on waking (prone vs side) — the mattress alone doesn't change position, and the Sep 19 plan pairs it with side-sleeping.
 - Keep tagging onset time (on waking vs afternoon/evening) — it's now the main variable that separates the two interventions.
 - Reassess around early November (~4 weeks after both start).
+
+---
+
+## 2026-10-27 — Check-In Three Weeks Into the Mattress + Glasses Interventions
+
+### Data Overview
+
+15 new database rows (ids 201–215), covering Sep 19 evening – Oct 26. Dates below are local (Pacific); `created_at` is UTC, so evening entries show up on the next day in the raw table.
+
+- **Excluded:** id 203 (`/start`, with `has_headache = 1` and "А українською" in the symptoms field, which looks like a test or someone else's message), id 205 (`/start`, empty), id 202 (a "can I write updates now?" test follow-up).
+- **id 201** is the evening of Sep 19, the same episode as entry 200. It was stored as a new entry instead of a follow-up, probably because it came in before the follow-up feature was deployed.
+
+That leaves 13 logged days: **8 headache days** (Sep 23, 26, 27; Oct 10, 11, 13, 24, 26) and **5 clear days** (Sep 20, 21, 28; Oct 17, 18).
+
+### Headache Rate: Logging Is Too Sparse to Read
+
+| Period | Calendar days | Logged days | Headache days | Rate bounds |
+|---|---|---|---|---|
+| Sep 20 – Oct 1 (before mattress) | 12 | 6 | 3 | 25% – 50% |
+| Oct 2 – Oct 26 (mattress; glasses from ~Oct 6) | 25 | 7 | 5 | 20% – 71% |
+| **Total** | **37** | **13** | **8** | **22% – 62%** |
+
+The low bound assumes every unlogged day was clear, and the high bound counts logged days only. Unlike the Aug 13 period, no catch-up entry says the gaps were headache-free, and headache days are more likely to get logged. The largest gap is Sep 29 – Oct 9, which covers the first week of the mattress. **The intervention readout can't be computed from this record.** The low bound is about the same as the post-PT average (~20–25%).
+
+### Golf: 3 for 3 With Full Swings, 0 for 1 With Short Game
+
+- **Sep 23 (Wed):** 40 min at the range in the morning, light sun, slightly sweaty. Headache "omedelbart efter." Pain felt like it came from the neck. Only half a cup of coffee that morning.
+- **Sep 27 (Sun):** 4-hour round, sunny and warm, **riding a cart**. Severe headache, stiffness 3, and the preventive ibuprofen didn't help.
+- **Oct 24 (Sat):** 40 min at the range in the afternoon, sunny, ~22 °C. "Bara 40 min, men det var tillräckligt." Ibuprofen and a nap cleared it.
+- **Counter-example, Sep 20:** short-game practice in the park under cloud gave no headache.
+
+The cart on Sep 27 removes "walking with a bag" from the Aug 13 list of possible mechanisms. What's left is the full swing, and 40 minutes of it is enough. Sun was present all three times, so this batch can't separate swing mechanics from light. The Jul 27–28 Finnish-cloud cluster still shows the swing is sufficient on its own. Photophobia was reported on both range days, which fits the Sep 19 idea that "sun" is partly glare. The sunglasses/cap test (Sep 19, item 4) is still unrecorded.
+
+### The "Saturday Headache" Continues, and Doesn't Fit Pure Let-Down
+
+- **Sep 26 (Sat):** prodrome noticed ~05:30 when up with Arthur; took 400 mg ibuprofen then. Woke with a headache at 07:00 anyway. It built to a peak around 12–14, then eased by late afternoon. Spent the morning in the shade with no exertion. Pain from the neck, "ganska jämnt" (diffuse, not a point).
+- **Oct 10–11 (Sat–Sun):** "lätt helghuvudvärk" both days, stiff neck, "inte så stor lust att röra på mig."
+- **Oct 26 (Mon, off work):** woke with a "lördagshuvudvärk" that got worse, after ~8.5 h of sleep, with photophobia. Walter pointed out himself that this was day five off (off since Thu Oct 22), so it **wasn't the first day after a stressful week**.
+
+Oct 26 weakens the simple "let-down after a heavy work week" reading of this phenotype. There are two other explanations. First, it may be **the tail of the Oct 24 range episode**: Oct 25 isn't logged, and multi-day runs are typical (Jul 27–30). Second, the trigger may be **the off-day pattern itself** (sleep timing, a looser routine, more outdoor sun) rather than relief from stress. Logging the day after a headache would settle the first one.
+
+### Ibuprofen
+
+- **Prodrome dosing failed for the first time (Sep 26).** Dosing at the prodrome now stands at 5 of 7 (Sep 26, and Sep 27 if "preventive" means before onset). Both failures fall on the side the Sep 19 note expected to respond poorly: Sep 26 is the Saturday phenotype. Sep 27 is less tidy, though: golf-type episodes have usually responded.
+- Oct 24 (golf) responded, together with a nap. Sep 23's outcome wasn't recorded.
+- About 4 known ibuprofen days in 37, well below the MOH line.
+
+### First Month of Symptom Data (`sensitivity` field)
+
+The field was answered on 7 headache days (including entry 201 for Sep 19):
+
+| Symptom | Days |
+|---|---|
+| Photophobia | 4 (Sep 19, Sep 23 "lite", Oct 24, Oct 26) |
+| Explicit "No" | 3 (Sep 27, Oct 11, Oct 13) |
+| Pain described as "from the neck" | 2 (Sep 23, Sep 26) |
+| Nausea, phonophobia, pulsating, one-sided | **0** |
+
+No episode meets ICHD-3 criterion C. That requires nausea, or photophobia *and* phonophobia, so migraine stays **probable**, not confirmed. Two of the four photophobia days were sunny range sessions, where discomfort from bright sun and true photophobia can't be told apart. Oct 26 is the cleanest case. The two "comes from the neck" descriptions count for the cervicogenic side. Activity avoidance (Oct 11) is a migraine criterion-B feature.
+
+The free-text answers are short. Before the neurologist visit, it would help to answer each item explicitly: light, sound, nausea, throbbing, side.
+
+### Intervention Readout (provisional)
+
+| Intervention | Expected effect | What the data shows so far |
+|---|---|---|
+| Firm mattress (Oct 2) | Less morning stiffness, fewer wake-up headaches | Wake-up/weekend headaches still happen (Oct 10–11, Oct 26). Stiffness averages 1.8 with no 3s in 5 entries, vs 2.0 with one 3 in 6 entries before. That's too few entries to mean anything. **Sleep position isn't recorded anywhere**, so it's unknown whether prone sleeping changed. |
+| Reading glasses (~Oct 6) | Fewer late-day headaches after screen-heavy days | One candidate: Oct 13, evening onset, 8 h of screens. Walter attributes it to poor sleep and an early start. **No entry mentions whether the glasses were worn**, so it can't be credited or blamed. |
+
+Neither intervention has failed, but neither can be evaluated yet. The Oct 6 plan to reassess in early November needs about two weeks of daily entries first, including one-line entries on clear days.
+
+### Other Signals
+
+- **No dizziness or visual symptoms reported** in any entry. Silence isn't a clear negative, though, because the bot doesn't ask about them.
+- **Caffeine:** Sep 23 is the first headache logged after a reduced morning dose (half a cup). It's confounded with the range session, but worth noting since Sep 19 ruled out caffeine only for the wake-up phenotype.
+- **Screen hours** still show no pattern (headache days 0–8 h, clear days 2–10 h).
+
+### Status of the Working Model
+
+The Sep 19 model stands, with these adjustments:
+
+| Pathway | Change |
+|---|---|
+| Golf / full swing | **Strengthened.** 3/3 again; the cart removes walking as a requirement; short game under cloud was fine |
+| Stress let-down | **Slightly weakened.** Oct 26 occurred on day five off |
+| Migraine (primary disorder) | Unchanged, probable. Photophobia recurs; nausea and phonophobia haven't appeared |
+| Mattress / glasses | Not evaluable. Usage and sleep position aren't logged |
+
+### Next Steps
+
+1. **Log every day**, including one-liners like "ingen huvudvärk," especially the day after a headache. This is now the main limit on every question above.
+2. **Add glasses use and sleep position to entries.** A structured bot question is better than relying on free text: "Glasögon idag? (ja/nej/timmar)" and "Sovställning: mage/sida/rygg." The bot should also stop storing `/start` as an entry.
+3. **At the range, wear sunglasses and a cap and record it.** A full-swing session with them on, or under cloud, separates swing from light.
+4. **Answer the symptom question item by item** (light, sound, nausea, throbbing, side) on headache days.
+5. **Neurology:** the vascular question and getting any imaging done before the November plan change (see `neurology-referral.md`) are unchanged by this data. Add this month's photophobia count and the golf 3/3 to what the neurologist gets.
+6. Reassess the interventions once there are ~14 consecutive logged days.
+
+---
+
+## 2026-10-27 — Neurology Visit: Migraine Without Aura + Exercise Headache
+
+### Visit
+
+Telehealth visit with a Neura Health neurologist, the same day as the check-in above. Walter read a short spoken summary covering frequency, the two main triggers, ibuprofen response, neck stiffness, his father's migraine, the PT course, and the August test with dizziness and double vision. He also completed the intake form, ticking only exercise as a consistent trigger, sleep, medication and gentle movement as relieving, and no aura.
+
+### Diagnosis
+
+From the visit notes:
+
+> *Walter's symptoms are most consistent with exercise-induced occipital headache and migraine without aura, triggered by several exercises with neck tension, since childhood.*
+
+What he said verbally:
+- **Migraine, but an atypical one.**
+- **Genetic, with a low threshold.** His father's migraine (Saturday headaches, with aura) points the same way.
+- **Computer work and posture feed the neck stiffness**, which acts as a trigger rather than the cause.
+- **No imaging for now.** He prefers to try migraine treatment first and see whether it works.
+
+This matches the Sep 19 reframing (a migraine-type generator with the neck as trigger or amplifier) and resolves its "probable migraine" question in favor of migraine. It also gives the golf pattern a name of its own. Exercise-induced headache is a recognized primary headache that responds well to indomethacin, which fits golf being the only trigger that works almost every time.
+
+### Treatment Plan
+
+| | Medication | How | Targets |
+|---|---|---|---|
+| Preventive | Propranolol ER 60 mg | Nightly. Watch for reduced exercise endurance and lightheadedness | Migraine frequency, and exercise headache as well |
+| Preventive | Magnesium glycinate 250 mg | Twice daily | Migraine frequency |
+| Preventive | Riboflavin (B2) 400 mg | Daily | Migraine frequency |
+| Acute | Indomethacin 25 mg | 60 min before triggering activity, with food and sucralfate 1 g. No other NSAIDs within 24 h | Golf and range sessions |
+| Acute | Sumatriptan (Imitrex) 25 mg | At the earliest sign; may repeat after 2 h. No other triptan within 24 h | Saturday and wake-up type, and anything ibuprofen hasn't handled |
+
+- Try each acute medication alone first to judge whether it works, then combine them if needed.
+- Continue the PT home program daily: tennis-ball suboccipital release, supine band pass, and gaze stabilization.
+- Track in the Neura Health app and book a coaching session.
+- Send any existing lab reports.
+- **Follow-up in 6–8 weeks, around Dec 8–22.**
+
+### How It Maps to the Record
+
+- **Indomethacin before golf** is a direct test of the strongest trigger. Golf with full swings has caused a headache 3/3 this past month, and in cool weather in July. A run of range sessions without a headache would be the clearest readout available.
+- **Sumatriptan for wake-up headaches** goes after the episodes where ibuprofen does worst: Saturday headaches and those following a sleep change or a stressful stretch (Apr 8, Jul 15, Sep 19, Sep 26). Response is diagnostic too, since triptans work on migraine but not on purely cervicogenic pain.
+- **The preventives** should move the baseline rate (22% over Sep 20 – Oct 26, counting unlogged days as clear) and how long episodes last. Propranolol usually takes 4–8 weeks, riboflavin about 3 months, so the December follow-up is an early readout, not the final one.
+
+### Effect on the Other Experiments
+
+The mattress (Oct 2) and reading glasses (~Oct 6) can no longer be evaluated on their own. Their window before medication was only 3–4 weeks and thinly logged. From now on, every change in rate is attributed to the medication first. Keep both in place, but stop treating them as experiments.
+
+### Safety and Tracking
+
+- **Medication-overuse thresholds:** triptans on 10 or more days a month, NSAIDs (ibuprofen and indomethacin together) on 15 or more. Log every dose.
+- **No ibuprofen within 24 h of indomethacin.** If a headache breaks through after pre-golf indomethacin, sumatriptan is the option.
+- **Triptans narrow blood vessels.** The neurologist heard about the August dizziness and double vision and chose not to image for now. If dizziness, double vision, slurred speech or numbness come on after a dose, treat it as urgent.
+- **Propranolol:** don't stop it abruptly. Running may feel harder as heart rate is capped.
+- **Sucralfate** can reduce absorption of other medicines taken at the same time. Ask the pharmacist about spacing.
+
+### Insurance Timing
+
+The current plan has a **$0 deductible** until a new plan starts in **November**, which has a **$3,000 deductible** that resets at the end of the year. The December follow-up and any imaging ordered then fall under the new plan.
+- Fill the prescriptions, including a refill if allowed, while still on the current plan.
+- Check that Neura Health and the medications are covered by the new plan.
+- If imaging is needed later, it will likely land in late 2026 under the new deductible, or in January after the reset. Ask whether the new plan credits deductible spending from the last months of the year (a "4th-quarter carryover").
+
+### Status of the Working Model
+
+| Pathway | Status |
+|---|---|
+| Migraine without aura | **Diagnosed** (neurologist). Genetic low threshold |
+| Exercise-induced headache (golf, running) | **Diagnosed** as a separate entity. Indomethacin before exercise |
+| Neck stiffness / posture | Trigger and contributor, not the primary disorder. PT continues |
+| Stress, sleep change, alcohol, sun | Migraine triggers. Should become less potent if the preventives work |
+| Vascular question (August dizziness and double vision) | Deferred by the neurologist. Revisit if treatment fails or symptoms appear |
+| Mattress, reading glasses | Kept, but confounded by medication and no longer evaluable |
+
+### Next Steps
+
+1. Start the preventives. Record the start date as the main intervention date.
+2. Before golf, follow the indomethacin protocol and log whether a headache follows.
+3. For the next wake-up or Saturday headache, take sumatriptan early and log the response at 2 hours.
+4. Log daily, including medication taken (name, time, effect) and propranolol side effects.
+5. Before the December follow-up, compare headache days per month, golf outcomes, and triptan response against the Sep 20 – Oct 26 baseline.
