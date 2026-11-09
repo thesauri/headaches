@@ -948,7 +948,7 @@ That leaves 7 logged days: **0 headache days** (Oct 27, 28, 29, 30; Nov 4, 6, 8)
 | Nov 6 | Sumatriptan | Morning: much stiffer neck than since starting medication, after a 25-min run the evening before (first run in a long while). No headache; neck a little better, still stiff |
 | Nov 8 | Sumatriptan | Felt one coming. No headache, despite being outdoors at midday in sun at 29 °C |
 
-Magnesium and riboflavin start dates are not recorded. Indomethacin hasn't been used (no golf logged).
+**Magnesium and riboflavin haven't been started yet** (as of Nov 8), so propranolol is the only preventive so far. Indomethacin hasn't been used (no golf logged).
 
 ### Readout
 
@@ -965,7 +965,7 @@ Magnesium and riboflavin start dates are not recorded. Indomethacin hasn't been 
 ### Next Steps
 
 1. Log every day, including clear ones. Add medication taken (name, time) and propranolol side effects.
-2. Record magnesium and riboflavin start dates.
+2. Start magnesium and riboflavin, and log the start date. It will be a separate intervention date from propranolol (Oct 28).
 3. Fill in the `sensitivity` field (light, sound, nausea, throbbing, side) whenever there's a prodrome or headache.
 4. Next golf or range session: indomethacin protocol, and log the outcome.
 5. Check why entry 219 was cut off (bot or message length).
